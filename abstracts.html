@@ -23,7 +23,13 @@
     .count { color:#888; font-size: 14px; margin-left: 6px; }
   </style>
 </head>
-<body>
+<body><header>
+  <nav class="nav">
+    <a href="index.html">Home</a>
+    <a href="timetable.html">Timetable</a>
+    <a href="abstracts.html">Abstracts</a>
+  </nav>
+</header>
   <header class="site">
     <div class="container">
       <h1>SKKU–Sookmyung Joint International Workshop — Titles & Abstracts <span class="count" id="count"></span></h1>
@@ -65,7 +71,7 @@
         </div>
         <div class="meta"><a class="email" href="mailto:mcchiu@eduhk.hk">mcchiu@eduhk.hk</a></div>
       </header>
-      <p class="abstract">Most reinforcement learning (RL) algorithms are based on the dynamic programming principle (DPP). Related algorithms, such as Q-learning, often involve examining the reward function during the training procedure. However, time inconsistency, prevalent in many finance problems, such as the mean-variance (MV) investment problem, violates the DPP and thus introduces challenges to continuous-time RL. To address time inconsistency, one approach uses the Nash subgame perfect equilibrium among the current and all future selves of an investor. Consequently, the task transforms from optimizing the reward function to finding the equilibrium. The spike variation technique is crucial in solving stochastic control problems in continuous time without assuming DPP. In this paper, we propose an open-loop spike variational RL for equilibrium MV investment subject to the Shannon entropy regularizer. We provide sufficient conditions to characterize the exploratory policy. Under these conditions, we introduce the concept of spike variational RL and show that the corresponding Gaussian exploratory policy is unique. Our results feature explicit solutions for exploratory time-consistent MV investment problems for both constant and state-dependent risk aversions. Numerical experiments indicate that our RL algorithm performs comparably to existing methods for the constant risk aversion case as well as the state-dependent risk aversion case.  Wang and H.Y. Wong.</p>
+      <p class="abstract">Most reinforcement learning (RL) algorithms are based on the dynamic programming principle (DPP). Related algorithms, such as Q-learning, often involve examining the reward function during the training procedure. However, time inconsistency, prevalent in many finance problems, such as the mean-variance (MV) investment problem, violates the DPP and thus introduces challenges to continuous-time RL. To address time inconsistency, one approach uses the Nash subgame perfect equilibrium among the current and all future selves of an investor. Consequently, the task transforms from optimizing the reward function to finding the equilibrium. The spike variation technique is crucial in solving stochastic control problems in continuous time without assuming DPP. In this paper, we propose an open-loop spike variational RL for equilibrium MV investment subject to the Shannon entropy regularizer. We provide sufficient conditions to characterize the exploratory policy. Under these conditions, we introduce the concept of spike variational RL and show that the corresponding Gaussian exploratory policy is unique. Our results feature explicit solutions for exploratory time-consistent MV investment problems for both constant and state-dependent risk aversions. Numerical experiments indicate that our RL algorithm performs comparably to existing methods for the constant risk aversion case as well as the state-dependent risk aversion case.  </p>
     </article>
     
     <article class="talk">
