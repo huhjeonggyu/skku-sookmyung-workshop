@@ -14,10 +14,8 @@ header{position:sticky; top:0; background:#fff; border-bottom:1px solid #eee; z-
 .nav a:hover{opacity:.7}
 .container{max-width:1500px; margin:0 auto; padding:24px 20px; line-height:1.55;}
 h1{margin:0 0 12px}
-.table{width:100%; border-collapse:collapse; border:1px solid #eee; background:#fff; box-shadow:0 6px 24px rgba(0,0,0,.04);}
-.table th,.table td{border:1px solid #eee; padding:10px 8px; vertical-align:top; text-align:left}
-.table thead th{position:sticky; top:60px; background:#fafafa; z-index:5}
-.note{color:#666}
+ul.participants{columns:2; -webkit-columns:2; -moz-columns:2; gap:32px; padding-left:18px}
+@media (max-width:900px){ ul.participants{columns:1} }
 </style>
 </head>
 <body>
@@ -31,9 +29,9 @@ h1{margin:0 0 12px}
 </header>
 <main class="container">
   <h1>Participants</h1>
-  <p class="note">Plenary/Invited/Organizing lists follow the poster & program; additional attendees without presentations are listed below and will be kept up to date.</p>
-  <h2>Participants without presentation</h2>
-  <table class='table'><thead><tr><th>Name</th><th>Affiliation</th><th>Position</th><th>Email</th><th>Days attending</th><th>Dinner</th><th>Category</th></tr></thead><tbody><tr><td>Tae Ung Gang</td><td>KAIST</td><td>Post doctor</td><td>gangtaeung@kaist.ac.kr</td><td>Tuesday, Wednesday, Thursday</td><td>Tuesday, Wednesday</td><td>Participants without presentation</td></tr><tr><td>Minsuk Kwak</td><td>Hankuk University of Foreign Studies</td><td>Professor</td><td>mkwak@hufs.ac.kr</td><td>Tuesday, Wednesday, Thursday</td><td>Tuesday, Wednesday</td><td>Participants without presentation</td></tr><tr><td>Geonwoo Kim</td><td>SeoulTech</td><td>Associate professor</td><td>geonwoo@seoultech.ac.kr</td><td>Tuesday, Wednesday</td><td>Tuesday</td><td>Participants without presentation</td></tr><tr><td>Donghan Kim</td><td>KAIST</td><td>Assistant professor</td><td>kimdonghan@kaist.ac.kr</td><td>Tuesday, Wednesday, Thursday</td><td>Wednesday</td><td>Participants without presentation</td></tr><tr><td>Jongbong An</td><td>KAIST</td><td>Post-doc</td><td>ajb8406@kaist.ac.kr</td><td>Tuesday, Wednesday, Thursday</td><td>Tuesday, Wednesday</td><td>Participants without presentation</td></tr><tr><td>Hyungbin Park</td><td>Seoul National University</td><td>Associate professor</td><td>hyungbin@snu.ac.kr</td><td>Tuesday, Wednesday, Thursday</td><td>Tuesday, Wednesday</td><td>Participants without presentation</td></tr><tr><td>Jinho Han</td><td>Sungkyunkwan University</td><td>Postdoctoral Researcher</td><td>happy88joey@g.skku.edu</td><td>Tuesday, Wednesday, Thursday</td><td>Tuesday, Wednesday</td><td>Participants without presentation</td></tr><tr><td>Kyung-Youn Kim</td><td>National Chung-Hsing University</td><td>Assistant Professor</td><td>kykim@nchu.edu.tw</td><td>Tuesday, Thursday</td><td>Wednesday</td><td>Participants without presentation</td></tr><tr><td>Seungwon Jeong</td><td>Chonnam National University</td><td></td><td></td><td></td><td></td><td>Participants without presentation</td></tr></tbody></table>
+  <ul class="participants">
+    <li>Tae Ung Gang (KAIST)</li><li>Minsuk Kwak (Hankuk University of Foreign Studies)</li><li>Geonwoo Kim (SeoulTech)</li><li>Donghan Kim (KAIST)</li><li>Jongbong An (KAIST)</li><li>Hyungbin Park (Seoul National University)</li><li>Jinho Han (Sungkyunkwan University)</li><li>Kyung-Youn Kim (National Chung-Hsing University)</li><li>Seungwon Jeong (Chonnam National University)</li>
+  </ul>
 </main>
 </body>
 </html>
