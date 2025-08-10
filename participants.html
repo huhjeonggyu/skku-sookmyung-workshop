@@ -9,13 +9,14 @@
 *{box-sizing:border-box}
 body{font-family:system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'Apple SD Gothic Neo', Arial, sans-serif; margin:0; color:#222;}
 header{position:sticky; top:0; background:#fff; border-bottom:1px solid #eee; z-index:10}
-.nav{max-width:1500px; margin:0 auto; display:flex; gap:24px; align-items:center; padding:14px 20px;}
+.nav{max-width:1000px; margin:0 auto; display:flex; gap:24px; align-items:center; padding:14px 20px;}
 .nav a{color:#333; text-decoration:none; font-weight:600;}
 .nav a:hover{opacity:.7}
-.container{max-width:1500px; margin:0 auto; padding:24px 20px; line-height:1.55;}
+.container{max-width:1000px; margin:0 auto; padding:24px 20px; line-height:1.55;}
 h1{margin:0 0 12px}
-ul.participants{columns:2; -webkit-columns:2; -moz-columns:2; gap:32px; padding-left:18px}
-@media (max-width:900px){ ul.participants{columns:1} }
+h2{margin:24px 0 10px}
+ul.cols{columns:2; -webkit-columns:2; -moz-columns:2; gap:28px; padding-left:18px}
+@media (max-width:900px){ ul.cols{columns:1} }
 </style>
 </head>
 <body>
@@ -29,9 +30,14 @@ ul.participants{columns:2; -webkit-columns:2; -moz-columns:2; gap:32px; padding-
 </header>
 <main class="container">
   <h1>Participants</h1>
-  <ul class="participants">
-    <li>Jiro Akahori (Ritsumeikan University)</li><li>Xuedong He (Chinese University of Hong Kong, CUHK)</li><li>Hyeng Keun Koo (Ajou University)</li><li>Takanori Adachi (Tokyo Metropolitan University, TMU)</li><li>Mei Choi Chiu (Education University of Hong Kong, EdUHK)</li><li>Jin Hyuk Choi (Ulsan National Institute of Science and Technology, UNIST)</li><li>Yuchao Dong (Tongji University)</li><li>Hiroaki Hata (Hitotsubashi University)</li><li>Chii-Ruey Hwang (Academia Sinica)</li><li>Bong-Gyu Jang (POSTECH)</li><li>Jaegi Jeon (Chonnam National University)</li><li>Donghyun Kim (Gyeongsang National University)</li><li>Panki Kim (Seoul National University, SNU)</li><li>Lingfei Li (Chinese University of Hong Kong, CUHK)</li><li>Jun Moon (Hanyang University)</li><li>Chi Seng Pun (Nanyang Technological University, NTU Singapore)</li><li>Shuenn-Jyi Sheu (National Central University, NCU)</li><li>Li-Hsien Sun (National Central University, NCU)</li><li>Teruyoshi Suzuki (Hokkaido University)</li><li>Kohta Takehara (Tokyo Metropolitan University, TMU)</li><li>Tomonori Uchiyama (Tokyo Metropolitan University, TMU)</li><li>Hoi Ying Wong (Chinese University of Hong Kong, CUHK)</li><li>Kyoko Yagi (Tokyo Metropolitan University, TMU)</li><li>Tinging Yan (East China Normal University)</li><li>Kazuhiro Yasuda (Hosei University)</li><li>Ji-Hun Yoon (Pusan National University, PNU)</li><li>Toshinao Yoshiba (Tokyo Metropolitan University, TMU)</li><li>Tomooki Yuasa (Tokyo Metropolitan University, TMU)</li><li>Kelvin Shuangjian Zhang (Fudan University)</li><li>Jeonggyu Huh (Sungkyunkwan University)</li><li>Yong Hyun Shin (Sookmyung Women&#x27;s University)</li><li>Tae Ung Gang (KAIST)</li><li>Minsuk Kwak (Hankuk University of Foreign Studies)</li><li>Geonwoo Kim (SeoulTech)</li><li>Donghan Kim (KAIST)</li><li>Jongbong An (KAIST)</li><li>Hyungbin Park (Seoul National University)</li><li>Jinho Han (Sungkyunkwan University)</li><li>Kyung-Youn Kim (National Chung-Hsing University)</li><li>Seungwon Jeong (Chonnam National University)</li>
-  </ul>
+  <h2>Plenary Speakers</h2>
+  <ul class='cols'><li>Jiro Akahori (Ritsumeikan University)</li><li>Xuedong He (Chinese University of Hong Kong, CUHK)</li><li>Hyeng Keun Koo (Ajou University)</li></ul>
+  <h2>Invited Speakers</h2>
+  <ul class='cols'><li>Takanori Adachi (Tokyo Metropolitan University, TMU)</li><li>Mei Choi Chiu (Education University of Hong Kong, EdUHK)</li><li>Jin Hyuk Choi (Ulsan National Institute of Science and Technology, UNIST)</li><li>Yuchao Dong (Tongji University)</li><li>Hiroaki Hata (Hitotsubashi University)</li><li>Chii-Ruey Hwang (Academia Sinica)</li><li>Bong-Gyu Jang (POSTECH)</li><li>Jaegi Jeon (Chonnam National University)</li><li>Donghyun Kim (Gyeongsang National University)</li><li>Panki Kim (Seoul National University, SNU)</li><li>Lingfei Li (Chinese University of Hong Kong, CUHK)</li><li>Jun Moon (Hanyang University)</li><li>Chi Seng Pun (Nanyang Technological University, NTU Singapore)</li><li>Shuenn-Jyi Sheu (National Central University, NCU)</li><li>Li-Hsien Sun (National Central University, NCU)</li><li>Teruyoshi Suzuki (Hokkaido University)</li><li>Kohta Takehara (Tokyo Metropolitan University, TMU)</li><li>Tomonori Uchiyama (Tokyo Metropolitan University, TMU)</li><li>Hoi Ying Wong (Chinese University of Hong Kong, CUHK)</li><li>Kyoko Yagi (Tokyo Metropolitan University, TMU)</li><li>Tinging Yan (East China Normal University)</li><li>Kazuhiro Yasuda (Hosei University)</li><li>Ji-Hun Yoon (Pusan National University, PNU)</li><li>Toshinao Yoshiba (Tokyo Metropolitan University, TMU)</li><li>Tomooki Yuasa (Tokyo Metropolitan University, TMU)</li><li>Kelvin Shuangjian Zhang (Fudan University)</li></ul>
+  <h2>Organizing Committee</h2>
+  <ul class='cols'><li>Jeonggyu Huh (Sungkyunkwan University)</li><li>Yong Hyun Shin (Sookmyung Women&#x27;s University)</li></ul>
+  <h2>Participants (no presentation)</h2>
+  <ul class='cols'><li>Tae Ung Gang (KAIST)</li><li>Minsuk Kwak (Hankuk University of Foreign Studies)</li><li>Geonwoo Kim (SeoulTech)</li><li>Donghan Kim (KAIST)</li><li>Jongbong An (KAIST)</li><li>Hyungbin Park (Seoul National University)</li><li>Jinho Han (Sungkyunkwan University)</li><li>Kyung-Youn Kim (National Chung-Hsing University)</li><li>Seungwon Jeong (Chonnam National University)</li></ul>
 </main>
 </body>
 </html>
