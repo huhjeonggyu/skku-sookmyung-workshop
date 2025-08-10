@@ -1,40 +1,34 @@
-
 <!doctype html>
-<html lang="ko">
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>SKKU–Sookmyung Workshop: Titles & Abstracts</title>
-  <style>
-    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans KR', Arial, sans-serif; margin: 0; padding: 0; background:#fafafa; }
-    header.site { background:#111; color:#fff; padding: 20px; }
-    header.site h1 { margin:0; font-size: 22px; }
-    .container { max-width: 980px; margin: 0 auto; padding: 20px; }
-    .search { margin: 10px 0 20px; }
-    .search input { width: 100%; padding: 12px; font-size: 16px; box-sizing: border-box; }
-    .talk { background:#fff; border:1px solid #eee; border-radius: 8px; padding:16px; margin: 12px 0; }
-    .talk .title { margin: 0 0 6px; font-size: 20px; }
-    .speaker { color:#333; }
-    .affiliation { display:inline-block; margin-left: 6px; color:#666; }
-    .badge { display:inline-block; background:#222; color:#fff; font-size: 12px; border-radius: 4px; padding:2px 6px; margin-left: 8px; }
-    .abstract { line-height: 1.6; white-space: pre-wrap; }
-    .meta .email { color:#0366d6; text-decoration: none; font-size: 14px; }
-    footer { text-align:center; color:#666; padding: 30px 0; }
-    .count { color:#888; font-size: 14px; margin-left: 6px; }
-  </style>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Abstracts — SKKU–Sookmyung Workshop 2025</title>
+<style>
+:root{--accent:#2b2b2b;}
+*{box-sizing:border-box}
+body{font-family:system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'Apple SD Gothic Neo', Arial, sans-serif; margin:0; color:#222;}
+header{position:sticky; top:0; background:#fff; border-bottom:1px solid #eee; z-index:10}
+.nav{max-width:1000px; margin:0 auto; display:flex; gap:24px; align-items:center; padding:14px 20px;}
+.nav a{color:#333; text-decoration:none; font-weight:600;}
+.nav a:hover{opacity:.7}
+.container{max-width:1000px; margin:0 auto; padding:24px 20px; line-height:1.55;}
+h1,h2{margin:0 0 12px}
+a{color:#0b57d0}
+footer{border-top:1px solid #eee; margin-top:40px; padding:20px; color:#666}
+</style>
 </head>
-<body><header>
+<body>
+<header>
   <nav class="nav">
     <a href="index.html">Home</a>
     <a href="timetable.html">Timetable</a>
     <a href="abstracts.html">Abstracts</a>
   </nav>
 </header>
-  <header class="site">
-    <div class="container">
-      <h1>SKKU–Sookmyung Joint International Workshop — Titles & Abstracts <span class="count" id="count"></span></h1>
-    </div>
-  </header>
+<main class="container">
+
+  
   <main class="container">
     <div class="search">
       <input id="q" type="search" placeholder="검색: 제목, 연사, 소속, 키워드...">
@@ -42,321 +36,147 @@
     <div id="list">
       
     <article class="talk">
-      <header>
-        <h2 class="title">A geometric model of synthetic filtrations</h2>
-        <div class="speaker">
-          <strong>Takanori Adachi</strong> <div class="affiliation">Tokyo Metropolitan University (TMU)</div> 
-        </div>
-        <div class="meta"><a class="email" href="mailto:taka.adachi@gmail.com">taka.adachi@gmail.com</a></div>
-      </header>
+      
       <p class="abstract">The past is usually perceived as a single path leading to the present while the future is perceived as extending from the present.  In this study, contrary to the above intuition, we take the position that the present is formed by the synthesis of multiple pasts. To construct such a model, we define the category $\Sigma$, which is an extension of the simplex category with context-dependent time, representing the time domain of generalized filtration.  We then formalize the homology derived from this $\Sigma$-filtration as a tool for studying it. Finally, we propose the Dirichlet filtration as a more concrete example of $\Sigma$-filtration and examine how Bayesian statistical methods can be expressed.</p>
     </article>
     
     <article class="talk">
-      <header>
-        <h2 class="title">Volatility estimation from a view point of entropy</h2>
-        <div class="speaker">
-          <strong>Jiro Akahori</strong> <div class="affiliation">Ritsumeikan University</div> <span class="badge">plenary</span>
-        </div>
-        <div class="meta"><a class="email" href="mailto:jiro.akahori@gmail.com">jiro.akahori@gmail.com</a></div>
-      </header>
+      
       <p class="abstract">We first revisit the volatility estimation approach proposed by N. Kunitomo and S. Sato, and second, we show that the volatility estimator proposed by P. Malliavin and M.E. Mancino can be understood in a unified way by the approach.  The point of view connects the HFS to the framework of general statistical learning theory,</p>
     </article>
     
     <article class="talk">
-      <header>
-        <h2 class="title">Spike variational reinforcement learning of equilibrium mean-variance investment strategy</h2>
-        <div class="speaker">
-          <strong>Mei Choi Chiu</strong> <div class="affiliation">Education University of Hong Kong (EdUHK)</div> 
-        </div>
-        <div class="meta"><a class="email" href="mailto:mcchiu@eduhk.hk">mcchiu@eduhk.hk</a></div>
-      </header>
+      
       <p class="abstract">Most reinforcement learning (RL) algorithms are based on the dynamic programming principle (DPP). Related algorithms, such as Q-learning, often involve examining the reward function during the training procedure. However, time inconsistency, prevalent in many finance problems, such as the mean-variance (MV) investment problem, violates the DPP and thus introduces challenges to continuous-time RL. To address time inconsistency, one approach uses the Nash subgame perfect equilibrium among the current and all future selves of an investor. Consequently, the task transforms from optimizing the reward function to finding the equilibrium. The spike variation technique is crucial in solving stochastic control problems in continuous time without assuming DPP. In this paper, we propose an open-loop spike variational RL for equilibrium MV investment subject to the Shannon entropy regularizer. We provide sufficient conditions to characterize the exploratory policy. Under these conditions, we introduce the concept of spike variational RL and show that the corresponding Gaussian exploratory policy is unique. Our results feature explicit solutions for exploratory time-consistent MV investment problems for both constant and state-dependent risk aversions. Numerical experiments indicate that our RL algorithm performs comparably to existing methods for the constant risk aversion case as well as the state-dependent risk aversion case.  </p>
     </article>
     
     <article class="talk">
-      <header>
-        <h2 class="title">Unified asymptotics for investment under illiquidity: transaction costs and search frictions</h2>
-        <div class="speaker">
-          <strong>Jin Hyuk Choi</strong> <div class="affiliation">Ulsan National Institute of Science and Technology (UNIST)</div> 
-        </div>
-        <div class="meta"><a class="email" href="mailto:jchoi@unist.ac.kr">jchoi@unist.ac.kr</a></div>
-      </header>
+      
       <p class="abstract">We investigate the optimal investment problem in a market with two types of illiquidity: transaction costs and search frictions. We analyze a power-utility maximization problem where an investor encounters proportional transaction costs and trades only when a Poisson process triggers trading opportunities. We show that the optimal trading strategy is described by a no-trade region. We introduce a novel asymptotic framework applicable when both transaction costs and search frictions are small. Using this framework, we derive explicit asymptotics for the no-trade region and the value function along a specific parametric curve. This approach unifies existing asymptotic results for models dealing exclusively with either transaction costs or search frictions.</p>
     </article>
     
     <article class="talk">
-      <header>
-        <h2 class="title">Data-Driven Merton’s Strategies via Policy Randomization</h2>
-        <div class="speaker">
-          <strong>Yuchao Dong</strong> <div class="affiliation">Tongji University</div> 
-        </div>
-        <div class="meta"><a class="email" href="mailto:21017@tongji.edu.cn">21017@tongji.edu.cn</a></div>
-      </header>
+      
       <p class="abstract">We study Merton’s expected utility maximization problem in an incomplete market, characterized by a factor process in addition to the stock price process, where all the model primitives are unknown. The agent under consideration is a price taker who has access only to the stock and factor value processes and the instantaneous volatility.We propose an auxiliary problem in which the agent can invoke policy randomization according to a specific class of Gaussian distributions, and prove that the mean of its optimal Gaussian policy solves the original Merton problem. With randomized policies, we are in the realm of continuous-time reinforcement learning (RL) recently developed in Wang et al. (2020) and Jia and Zhou (2022a,b, 2023), enabling us to solve the auxiliary problem in a data-driven way without having to estimate the model primitives. Specifically, we establish a policy improvement theorem based on which we design both online and offline actor–critic RL algorithms for learning Merton’s strategies. A key insight from this study is that RL in general and policy randomization in particular are useful beyond the purpose for exploration – they can be employed as a technical tool to solve a problem that cannot be otherwise solved by mere deterministic policies. At last, we carry out both simulation and empirical studies in a stochastic volatility environment to demonstrate the decisive outperformance of the devised RL algorithms in comparison to the conventional model-based, plug-in method.</p>
     </article>
     
     <article class="talk">
-      <header>
-        <h2 class="title">Optimal consumption and investment problem with delay under partial information</h2>
-        <div class="speaker">
-          <strong>Hiroaki Hata</strong> <div class="affiliation">Hitotsubashi University</div> 
-        </div>
-        <div class="meta"><a class="email" href="mailto:h.hata@r.hit-u.ac.jp">h.hata@r.hit-u.ac.jp</a></div>
-      </header>
+      
       <p class="abstract">We consider an optimal consumption and investment problem with delay under a linear Gaussian stochastic factor model. A linear Gaussian stochastic factor model is a stochastic factor model in which the mean returns of risky assets depend linearly on underlying economic factors that are formulated as the solutions of linear stochastic differential equations. We consider the performance-related capital inflow/outflow, which implies that the wealth process is modeled by a stochastic differential delay equation. We also treat the partial information case where the investor cannot observe the factor process and can use only past information about risky assets. Under this setting, the investor tries to maximize the finite horizon discounted expected HARA utility of consumption, the terminal wealth, and the average wealth. A pair of forward-backward stochastic differential equations derived via the stochastic maximum principle have an explicit solution that can be obtained by solving a time-inhomogeneous Riccati differential equation. Thus, the optimal strategy and the optimal value can be obtained explicitly.</p>
     </article>
     
     <article class="talk">
-      <header>
-        <h2 class="title">Dynamic Asset Pricing with α-MEU Model</h2>
-        <div class="speaker">
-          <strong>Xuedong He</strong> <div class="affiliation">Chinese University of Hong Kong (CUHK)</div> <span class="badge">plenary</span>
-        </div>
-        <div class="meta"><a class="email" href="mailto:xdhe@se.cuhk.edu.hk">xdhe@se.cuhk.edu.hk</a></div>
-      </header>
+      
       <p class="abstract">We study a dynamic asset pricing problem in which a representative agent is ambiguous about the aggregate endowment growth rate and trades a risky stock, human capital, and a risk-free asset to maximize her preference value of consumption represented by the α-maxmin expected utility model. This preference model is known to be dynamically inconsistent, so we consider intra-personal equilibrium strategies for the representative agent and define the market equilibrium as the one in which the strategy that clears the market is an intrapersonal equilibrium. We prove the existence and uniqueness of the market equilibrium and show that the asset prices in the equilibrium are the same as in the case when the agent does not perceive any ambiguity but believes in a particular probabilistic model of the endowment process. We show that with reasonable parameter values, the more ambiguity the agent perceives or the more ambiguity-averse she is, the lower the risk-free rate, the higher the stock price, the higher the stock risk premium, and the lower the stock volatility.</p>
     </article>
     
     <article class="talk">
-      <header>
-        <h2 class="title">Monte Carlo Markov Processes</h2>
-        <div class="speaker">
-          <strong>Chii-Ruey Hwang</strong> <div class="affiliation">Academia Sinica</div> 
-        </div>
-        <div class="meta"><a class="email" href="mailto:crhwang@sinica.edu.tw">crhwang@sinica.edu.tw</a></div>
-      </header>
+      
       <p class="abstract">When the underlying probability (density) is known up to a norming constant only, the usual direct (i.i.d.) sampling is not feasible. The dynamic Monte Carlo method (MCMC) is adopted instead. Mathematically it is to study asymptotic properties of Markov processes/chains with the same equilibrium under various criteria. One of the findings is ‘the non-reversibility performs better’.</p>
     </article>
     
     <article class="talk">
-      <header>
-        <h2 class="title">Advancing Yield Curve Forecasting: Deep Learning Nelson-Siegel Models and Macroeconomic Insights</h2>
-        <div class="speaker">
-          <strong>Bong-Gyu Jang</strong> <div class="affiliation">POSTECH</div> 
-        </div>
-        <div class="meta"><a class="email" href="mailto:bonggyujang@postech.ac.kr">bonggyujang@postech.ac.kr</a></div>
-      </header>
+      
       <p class="abstract">This study empirically examines whether incorporating macroeconomic information into a Deep Learning Nelson–Siegel (DLNS) framework improves yield‑curve forecasts, using monthly U.S. Treasury data. The benchmark DLNS model and its macro augmented variant, DLNS‑X, both outperform the traditional dynamic Nelson–Siegel (DNS) model across all forecast horizons. Integrating CPI inflation and M2 money supply into the DLNS‑X model further enhances medium‑term and long‑term predictive accuracy during periods of elevated short‑term interest rates, indicating that these variables convey incremental information beyond that contained in the yield curve. In contrast, the performance gap narrows in certain economic regimes, lending support to the macro‑spanning hypothesis that key macroeconomic news is already embedded in the curve. These findings confirm that deep‑learning term‑structure models can capture complex nonlinear dynamics while preserving economic interpretability, identify the conditions under which macro factors most improve forecast performance, and establish a foundation for the development of more refined forecasting methodologies.</p>
     </article>
     
     <article class="talk">
-      <header>
-        <h2 class="title">Pontryagin-Guided Deep Learning for Large-Scale Constrained Dynamic Portfolio Choice</h2>
-        <div class="speaker">
-          <strong>Jaegi Jeon</strong> <div class="affiliation">Chonnam National University</div> 
-        </div>
-        <div class="meta"><a class="email" href="mailto:jaegijeon@jnu.ac.kr">jaegijeon@jnu.ac.kr</a></div>
-      </header>
+      
       <p class="abstract">We present a Pontryagin-Guided Direct Policy Optimization (PG-DPO) method for constrained dynamic portfolio choice - incorporating consumption and multi-asset investment - that scales to thousands of risky assets. By combining neural-network controls with Pontryagin&#x27;s Maximum Principle (PMP), it circumvents the curse of dimensionality that renders dynamic programming (DP) grids intractable beyond a handful of assets. Unlike value-based PDE or BSDE approaches, PG-DPO enforces PMP conditions at each gradient step, naturally accommodating no-short-selling or borrowing constraints and optional consumption bounds. A &quot;one-shot&quot; variant rapidly computes Pontryagin-optimal controls after a brief warm-up, leading to substantially higher accuracy than naive baselines. On modern GPUs, near-optimal solutions often emerge within just one or two minutes of training. Numerical experiments confirm that, for up to 1,000 assets, PG-DPO accurately recovers the known closed-form solution in the unconstrained case and remains tractable under constraints -- far exceeding the longstanding DP-based limit of around seven assets.</p>
     </article>
     
     <article class="talk">
-      <header>
-        <h2 class="title">A local volatility correction to mean-reverting stochastic volatility model for pricing derivatives</h2>
-        <div class="speaker">
-          <strong>Donghyun Kim</strong> <div class="affiliation">Gyeongsang National University</div> 
-        </div>
-        <div class="meta"><a class="email" href="mailto:donghyunkim@gnu.ac.kr">donghyunkim@gnu.ac.kr</a></div>
-      </header>
+      
       <p class="abstract">Generally, in the real market, empirical findings suggest that either local volatility (LV) or stochastic volatility (SV) models have a limit to capture the full dynamics and geometry of the implied volatilities of the given equity options. In this study, to overcome the disadvantage of such LV and SV models, we propose a special type of hybrid stochastic-local volatility (SLV∗) model in which the volatility is given by the squared logarithmic function of the underlying asset price added to a function of a fast mean-reverting process. By making use of asymptotic analysis and Mellin transform, we derive analytic pricing formulas for European derivatives with both smooth and non-smooth payoffs under the SLV∗ model. We run numerical experiments to verify the accuracy of the pricing formulas using a Monte-Carlo simulation method and to display that the proposed new model fits the geometry of the market implied volatility more closely than other models such as the Heston model, the stochastic elasticity of variance (SEV) model, the hybrid stochastic and CEV type local volatility (SVCEV) model and the multiscale stochastic volatility (MSV) model, especially for short time-to-maturity options.</p>
     </article>
     
     <article class="talk">
-      <header>
-        <h2 class="title">Sharp estimates of transition densities of jump processes</h2>
-        <div class="speaker">
-          <strong>Panki Kim</strong> <div class="affiliation">Seoul National University (SNU)</div> 
-        </div>
-        <div class="meta"><a class="email" href="mailto:pkim@snu.ac.kr">pkim@snu.ac.kr</a></div>
-      </header>
+      
       <p class="abstract">In this talk, we discuss transition densities of  symmetric pure jump Markov processes. Our focus is on the stability of estimates of transition densities when the jumping kernel exhibits mixed polynomial growth. Our results cover the processes on metric measure spaces under volume doubling conditions.</p>
     </article>
     
     <article class="talk">
-      <header>
-        <h2 class="title">Can Dynamic Portfolio Theory Be Practically Implemented?</h2>
-        <div class="speaker">
-          <strong>Hyeng Keun Koo</strong> <div class="affiliation">Ajou University</div> <span class="badge">plenary</span>
-        </div>
-        <div class="meta"><a class="email" href="mailto:hkoo@ajou.ac.kr">hkoo@ajou.ac.kr</a></div>
-      </header>
+      
       <p class="abstract">The dynamic portfolio theory, despite its theoretical elegance and academic contributions, has had limited impact on real-world investment practice. To better understand this gap, I will review the historical development of the theory and critically evaluate Cochrane’s assessment. I will discuss the key advancements needed to make implementation feasible—including solutions to the general investment problem, empirical identification of intertemporal hedging components, and the design of sustainable payout policies. I will then briefly present my previous and ongoing work with coauthors that contributes to addressing these implementation challenges.</p>
     </article>
     
     <article class="talk">
-      <header>
-        <h2 class="title">Reinforcement learning for jump-diffusions with financial applications</h2>
-        <div class="speaker">
-          <strong>Lingfei Li</strong> <div class="affiliation">Chinese University of Hong Kong (CUHK)</div> 
-        </div>
-        <div class="meta"><a class="email" href="mailto:lfli@se.cuhk.edu.hk">lfli@se.cuhk.edu.hk</a></div>
-      </header>
+      
       <p class="abstract">We study continuous-time reinforcement learning (RL) for stochastic control of systems governed by jump-diffusion processes. We formulate an entropy- regularized exploratory control problem with stochastic policies to capture the exploration--exploitation balance essential for RL. Unlike the pure diffusion case initially studied by Wang et al. (2020), the exploratory dynamics under jump- diffusions calls for a careful formulation of the jump part. Through theoretical analysis, we find that one can simply use the same policy evaluation and q-learning algorithms in Jia and Zhou (2022, 2023), originally developed for controlled diffusions, without needing to check a priori whether the underlying data comes from a pure diffusion or a jump-diffusion. However, we show that the presence of jumps ought to affect parameterizations of actors and critics in general. We investigate as an application the mean--variance portfolio selection problem with stock price modelled as a jump-diffusion and show that both RL algorithms and parameterizations are invariant with respect to jumps. We also present a detailed study on applying the general theory to mean--variance hedging of options. In both applications, we show that RL can achieve better empirical results than the classical plug-in approach using model estimates.</p>
     </article>
     
     <article class="talk">
-      <header>
-        <h2 class="title">Linear-Quadratic Stackelberg Games for Jump-Diffusion Systems</h2>
-        <div class="speaker">
-          <strong>Jun Moon</strong> <div class="affiliation">Hanyang University</div> 
-        </div>
-        <div class="meta"><a class="email" href="mailto:junmoon@hanyang.ac.kr">junmoon@hanyang.ac.kr</a></div>
-      </header>
+      
       <p class="abstract">In this talk, we study linear-quadratic leader-follower Stackelberg differen- tial games for jump-diffusion stochastic differential equations. In Stackelberg games, the leader holds a dominating position; the leader chooses, and then, announces her/his optimal strategy by considering the rational behavior of the follower. The follower then chooses her/his optimal solution based on the choice of the leader. This describes a sequential and hierarchical optimization problem between the leader and the follower, which arises in various applications such as finance, engineering, and science. First, we study the case of complete information, where both the leader and the follower have access to the complete filtration F generated by the underlying stochastic processes. Then we study the case of asymmetric information, where the leader and the follower have access to partial filtrations G1 ⊂ F and G2 ⊂ F, respectively, with G2 ⊂ G1 reflecting the asymmetric information structure. In both problems, by the stochastic maximum principle as well as the four-step scheme, we obtain the explicit feedback-type Stackelberg equilibrium for the leader and the follower.</p>
     </article>
     
     <article class="talk">
-      <header>
-        <h2 class="title">Backward Stochastic Volterra Integral Equations with General Nonlinearities</h2>
-        <div class="speaker">
-          <strong>Chi Seng Pun</strong> <div class="affiliation">Nanyang Technological University (NTU Singapore)</div> 
-        </div>
-        <div class="meta"><a class="email" href="mailto:cspun@ntu.edu.sg">cspun@ntu.edu.sg</a></div>
-      </header>
+      
       <p class="abstract">We establish existence, uniqueness, and regularity results for multi-dimensional backward stochastic Volterra integral equations (BSVIEs) with generators that may be random and exhibit nonlinear dependence on the solution, its martingale integrand, and their diagonal processes. Our approach leverages Malliavin calculus, offering a novel framework to address the analytical challenges posed by diagonal terms, in contrast to traditional techniques. We further derive a probabilistic representation for classical solutions to corresponding semi-linear partial differential equations via adapted solutions of BSVIEs. As an application, we study the dynamically optimal mean-variance portfolios under stochastic market models, where the myopic and intertemporal hedging demands are characterized by the diagonal components of some BSVIE solutions.</p>
     </article>
     
     <article class="talk">
-      <header>
-        <h2 class="title">Some studies of Merton’s Portfolio Optimization Problems</h2>
-        <div class="speaker">
-          <strong>Shuenn-Jyi Sheu</strong> <div class="affiliation">National Central University (NCU)</div> 
-        </div>
-        <div class="meta"><a class="email" href="mailto:sheusj@math.ncu.edu.tw">sheusj@math.ncu.edu.tw</a></div>
-      </header>
+      
       <p class="abstract">I will give a brief review of my personal experience on the studies of continuous time Merton’s portfolio optimization problems. These include risk-sensitive portfolio optimization problems, downside risk probabilities minimization problems, and optimal consumption problems. For the study of the risk-sensitive portfolio optimization problems, we follow the ideas of Fleming (1995), in IMA Vol. He reformulates the risk-sensitive portfolio optimization problem as a risk-sensitive stochastic control problem. The dynamic programming principle is used to derive the HJB (Hamilton-Jacobi-Bellman) equation associated to the risk-sensitive stochastic control problem. This HJB equation is a nonlinear elliptic partial differential equation. An eigenvalue equation (a linear equation) is a particular case after a suitable transformation (the logarithmic transformation used by Fleming (1977)). Hence we may call this HJB equation a nonlinear eigenvalue problem. The structure of such nonlinear eigenvalue problems is given in Kaise-Sheu ( 2006). A class of downside risk probabilities optimization problem is studied in Hata-Nagai-Sheu (2010). This problem can be considered as a large time large deviation problems with control process. By a duality argument, these two problems are closely related to each other. Following this observation, the idea of changing probability measure used in large deviation theory can be applied to solve the problem in Hata-Nagai-Sheu (2010) for downside-risk probabilities minimization problem. How to choose the correct measure change is derived from the solution of the risk-sensitive portfolio optimization problem. In Hata-Sheu (2012), an optimal consumption problem in infinite time horizon is considered, and in Hata-Nagai-Sheu (2018) the optimal consumption problem in finite time is considered. For the infinite time problem, the HJB equation associated to the problem is different from the HJB equations from the one for risk-sensitive portfolio optimization problem. Therefore, a different analysis is developed to solve the problem. The studies are inspired by Fleming-Pang (2004). Another study follows from the observation that HJB equation can be rewritten as an inf-sup type Isaacs equation, suggested by the idea of market completion. This indicates a stochastic game interpretation of the portfolio optimization problem, and the saddle point searching for the solution. Eventually it leads to an iteration scheme that can find an approximation of the solution with exponential rate of convergence. This is shown in Fleming-Nagai-Sheu (2019) for risk seeking cases. However, it is still open for risk averse cases and it poses a question whether if the method can be applied to derive a similar result. Another approach by considering directly the HJB equation is used in Hata-Yasuda (2025) to derive another iteration scheme that can find an approximation of the solution with exponential rate of convergence. They prove the result only for the risk averse cases, but it is still open for risk seeking cases.</p>
     </article>
     
     <article class="talk">
-      <header>
-        <h2 class="title">Partial Information in a Mean-Variance Portfolio Selection Game</h2>
-        <div class="speaker">
-          <strong>Li-Hsien Sun</strong> <div class="affiliation">National Central University (NCU)</div> 
-        </div>
-        <div class="meta"><a class="email" href="mailto:lihsiensun@ncu.edu.tw">lihsiensun@ncu.edu.tw</a></div>
-      </header>
+      
       <p class="abstract">We consider finitely many investors who perform mean-variance portfolio selection under a relative performance criterion. That is, each investor is concerned about not only her terminal wealth, but how it compares to the average terminal wealth of all investors (i.e., the mean field). We derive such a Nash equilibrium explicitly in the idealized case of full information (i.e., the dynamics of the underlying stock is perfectly known), and semi-explicitly in the realistic case of partial information (i.e., the stock evolution is observed, but the expected return of the stock is not precisely known). The formula under partial information involves an additional state process that serves to filter the true state of the expected return. We comment on the effect of partial information through numerical analysis. Observe that partial information alone can reduce investors’ wealth significantly, thereby causing or aggravating systemic risk.</p>
     </article>
     
     <article class="talk">
-      <header>
-        <h2 class="title">The Dynamics of Takeovers through Exchange Offers in the Presence of Competition</h2>
-        <div class="speaker">
-          <strong>Teruyoshi Suzuki</strong> <div class="affiliation">Hokkaido University</div> 
-        </div>
-        <div class="meta"><a class="email" href="mailto:suzuki@econ.hokudai.ac.jp">suzuki@econ.hokudai.ac.jp</a></div>
-      </header>
+      
       <p class="abstract">This study examines the characteristics of takeovers in the presence of competition using a three-stage model. We first investigate the property of the equilibrium of mergers and takeovers in a frictionless market, and then analyze the effect that the existence of the competitors had on this process. We apply a general surplus function, rather than a specific one, eliminating the modifying effects of this factor from our study. Our model predicts that the existence of heavy competition in the takeover increases the number of unsuccessful or incomplete deals. Furthermore, we find that the shareholders of the target in a competitive market can choose the timing of accepting an offer, without the need to observe the surplus benefit of the deal. Our model shows that the presence of competition does not always provide the target shareholders with an advantage.</p>
     </article>
     
     <article class="talk">
-      <header>
-        <h2 class="title">Design of Decentralized Exchanges under Concentrated Liquidity</h2>
-        <div class="speaker">
-          <strong>Kohta Takehara</strong> <div class="affiliation">Tokyo Metropolitan University (TMU)</div> 
-        </div>
-        <div class="meta"><a class="email" href="mailto:fin.tk.house@gmail.com">fin.tk.house@gmail.com</a></div>
-      </header>
+      
       <p class="abstract">Decentralized exchanges (DEXs) play a pivotal role in the decentralized finance (DeFi) ecosystem. These platforms typically utilize automated market makers (AMMs), which are algorithms designed to pool liquidity and offer it to DEX users at automatically determined prices. In recent developments, the concept of concentrated liquidity has emerged as a groundbreaking innovation, enabling more efficient utilization of liquidity based on the views of liquidity providers regarding transactions within the DEX. This talk presents how to design DEXs under the concentrated liquidity, with a particular emphasis on fee structures and the allocation of fees among participants, liquidity providers and managers of the DEX. The insights provided can be helpful for the design of DEXs, especially under the upcoming upgrade to Uniswap.</p>
     </article>
     
     <article class="talk">
-      <header>
-        <h2 class="title">Asset Prices and Sustainable Investing under Double Materiality</h2>
-        <div class="speaker">
-          <strong>Tomonori Uchiyama</strong> <div class="affiliation">Tokyo Metropolitan University (TMU)</div> 
-        </div>
-        <div class="meta"><a class="email" href="mailto:uchiyama@tmu.ac.jp">uchiyama@tmu.ac.jp</a></div>
-      </header>
+      
       <p class="abstract">This study examines portfolio choice, expected returns, and environmental impact within a double materiality framework for sustainable investing. This framework accounts for both the impact on the environment (inside-out) and the impact of the environment (outside-in). The optimal portfolio comprises components that reflect investors’ environmental preferences and hedge environmental risks, alongside the conventional mean-variance component. In equilibrium, green assets (i.e., those generating relatively positive environmental externalities) and resilient assets (i.e., those less exposed to environmental risks) tend to exhibit lower expected returns. As investors place greater emphasis on environmental externalities, the cost of capital for green firms declines, thereby internalizing these externalities and encouraging sustainable practices by firms. However, due to the interaction between environmental externalities and environmental risks, this beneficial effect may be offset—partially or fully—for green firms that are vulnerable to environmental risks.</p>
     </article>
     
     <article class="talk">
-      <header>
-        <h2 class="title">DeepMartingale: Duality of the optimal stopping problem with expressivity</h2>
-        <div class="speaker">
-          <strong>Hoi Ying Wong</strong> <div class="affiliation">Chinese University of Hong Kong (CUHK)</div> 
-        </div>
-        <div class="meta"><a class="email" href="mailto:hywong@sta.cuhk.edu.hk">hywong@sta.cuhk.edu.hk</a></div>
-      </header>
+      
       <p class="abstract">Using a martingale representation, we introduce a novel deep-learning approach, which we call DeepMartingale, to study the duality of discrete-monitoring optimal stopping problems in continuous time. This approach provides a tight upper bound for the primal value function, even in high-dimensional settings. We prove that the upper bound derived from DeepMartingale converges under very mild assumptions. Even more importantly, we establish the expressivity of DeepMartingale: it approximates the true value function within any prescribed accuracy $\varepsilon$ under our architectural design of neural networks whose size is bounded by $\tilde{c}\,D^{\tilde{q}}\varepsilon^{-\tilde{r}}$, where the constants $\tilde{c}, \tilde{q}, \tilde{r}$ are independent of the dimension $D$ and the accuracy $\varepsilon$. This guarantees that DeepMartingale does not suffer from the curse of dimensionality. Numerical experiments demonstrate the practical effectiveness of DeepMartingale, confirming its convergence, expressivity, and stability.</p>
     </article>
     
     <article class="talk">
-      <header>
-        <h2 class="title">Optimal Acquisition Contract Design under Asymmetric Information: The Role of Earnouts and Separating Menus</h2>
-        <div class="speaker">
-          <strong>Kyoko Yagi</strong> <div class="affiliation">Tokyo Metropolitan University (TMU)</div> 
-        </div>
-        <div class="meta"><a class="email" href="mailto:kyagi@tmu.ac.jp">kyagi@tmu.ac.jp</a></div>
-      </header>
+      
       <p class="abstract">This paper analyzes the optimal design of acquisition contracts under asymmetric information and decomposes the resulting information rents. We consider three contractual forms: lump-sum acquisition, earnout contracts, and a separating menu offering both options. Under a lump-sum contract, low-type targets may mimic high-type ones to secure higher prices, generating mimicking rents, while high-type targets may reject the offer, leading to adverse selection. Earnout contracts can fully prevent adverse selection by ensuring high-type participation, eliminating mimicking rents but incurring higher contracting costs. A separating menu induces self-selection, mitigating adverse selection and extracting information rent from low-type targets. While more efficient than earnouts alone, separating menus may be less efficient than lump-sum contracts when earnout costs are sufficiently high, making it optimal in some cases to tolerate mimicking rents.</p>
     </article>
     
     <article class="talk">
-      <header>
-        <h2 class="title">Risk-Sensitive Reinforcement Learning with Information Costs</h2>
-        <div class="speaker">
-          <strong>Tingjin Yan</strong> <div class="affiliation">East China Normal University</div> 
-        </div>
-        <div class="meta"><a class="email" href="mailto:tjyan@fem.ecnu.edu.cn">tjyan@fem.ecnu.edu.cn</a></div>
-      </header>
+      
       <p class="abstract">We study a provably optimal exploration problem in risk-sensitive reinforcement learning (RL) with information acquisition costs. The agent can pay for signals revealing information about future states and act based on them in a finite-horizon Markov decision process (MDP). We investigate a general objective class named optimized certainty equivalence,  which includes popular risk measures such as conditional value-at-risk, variance, and entropic risk. To handle both signal acquisition and action selection, we introduce a unified probabilistic decision policy and characterize the policy space under both constrained and unconstrained signal acquisition settings. We propose a novel bonus-driven value iteration algorithm for tabular MDPs and establish its regret bounds.</p>
     </article>
     
     <article class="talk">
-      <header>
-        <h2 class="title">One-Step Survival Method for Barrier Option Price and Greeks Calculation under Heston Model</h2>
-        <div class="speaker">
-          <strong>Kazuhiro Yasuda</strong> <div class="affiliation">Hosei University</div> 
-        </div>
-        <div class="meta"><a class="email" href="mailto:k_yasuda@hosei.ac.jp">k_yasuda@hosei.ac.jp</a></div>
-      </header>
+      
       <p class="abstract">In this presentation, we consider numerical computations of barrier option price and Greeks under the Heston model. We propose a one-step survival method for the Heston model, and through numerical experiments, demonstrate that this approach effectively reduces simulation variance.</p>
     </article>
     
     <article class="talk">
-      <header>
-        <h2 class="title">An analytic pricing formula for timer options under constant elasticity of variance with stochastic volatility</h2>
-        <div class="speaker">
-          <strong>Ji-Hun Yoon</strong> <div class="affiliation">Pusan National University (PNU)</div> 
-        </div>
-        <div class="meta"><a class="email" href="mailto:yssci99@pusan.ac.kr">yssci99@pusan.ac.kr</a></div>
-      </header>
+      
       <p class="abstract">Timer options, which were first introduced by Soci´et´ e G´en´ erale Corporate and Investment Banking in 2007, are financial securities whose payo s and exercise are determined by a random time associated with the accumulated realized variance of the underlying asset, unlike vanilla options exercised at the prescribed maturity date. In this paper, taking account of the correlation between the underlying asset price and volatility, we investigate the pricing of timer options under the constant elasticity of variance (CEV) model, proposed by Cox and Ross [10], taking advantage of the approach of asymptotic analysis. Additionally, we validate the pricing precision of the approximate formula for timer options using the Monte Carlo method. We conduct numerical experiments based on our corrected prices and analyze price sensitivities concerning various model parameters, with a focus on the value of elasticity.</p>
     </article>
     
     <article class="talk">
-      <header>
-        <h2 class="title">Dynamic skew-t copula modelling for multivariate asset price movement</h2>
-        <div class="speaker">
-          <strong>Toshinao Yoshiba</strong> <div class="affiliation">Tokyo Metropolitan University (TMU)</div> 
-        </div>
-        <div class="meta"><a class="email" href="mailto:tyoshiba@tmu.ac.jp">tyoshiba@tmu.ac.jp</a></div>
-      </header>
+      
       <p class="abstract">We summarize modelling and estimating two types of dynamic skew-t copulas. The first one is for DGHSktC (dynamic generalized hyperbolic skew-t copula) proposed by Ito and Nakamura (2019). The second one is for DACSktC (dynamic Azzalini-Capitanio skew-t copula) proposed by Ito and Yoshiba (2025). After summarizing the methods, we conduct empirical analysis using the fifteen-years weekly stock returns for two groups composed by three sectors from TOPIX 33 sectors. In results, we show the significance of the tail dependence and asymmetry. We also show that dynamic modelling for correlation matrix is more effective than static one in terms of information criteria.</p>
     </article>
     
     <article class="talk">
-      <header>
-        <h2 class="title">Randomized multi-factor approximation for stochastic volterra equations with fractional kernel</h2>
-        <div class="speaker">
-          <strong>Tomooki Yuasa</strong> <div class="affiliation">Tokyo Metropolitan University (TMU)</div> 
-        </div>
-        <div class="meta"><a class="email" href="mailto:tomooki-yuasa@tmu.ac.jp">tomooki-yuasa@tmu.ac.jp</a></div>
-      </header>
+      
       <p class="abstract">In this talk, we introduce a new simulation method for rough volatility models. In recent years, rough volatility models have attracted significant attention for modeling underlying asset prices. Unlike traditional volatility processes, which are modeled as solutions to stochastic differential equations (SDEs) driven by Brownian motion, the volatility processes in rough volatility models follow solutions to stochastic Volterra equations (SVEs) with the fractional kernel (i.e., driven by fractional Brownian motion). Since fractional Brownian motion lacks the Markov property, rough volatility models also exhibit non-Markovian behavior, which is one of the main challenges in this research area. Abi Jaber and El Euch (2019) proposed a method to approximate SVEs with systems of SDEs using the Laplace transform representation of the fractional kernel and numerical quadrature. This method, known as the Markovian approximation (or the multi-factor approximation), enables simulation techniques---previously difficult or inefficient to apply due to the lack of Markovianity at the SVE level---to be applied more effectively to the approximating Markovian SDE system. While all previous studies have used deterministic approaches for the integral approximation, the novelty of this work lies in incorporating a probabilistic approach (e.g., the Monte Carlo method). It has been shown that the probabilistic Markovian approximation developed in this study achieves higher accuracy than all existing deterministic Markovian approximations, except for the method of Bayer and Breneis (2023). Moreover, under certain conditions, our method has been observed to outperform even that of Bayer and Breneis (2023).</p>
     </article>
     
     <article class="talk">
-      <header>
-        <h2 class="title">Characterization of the optimal solutions to the Rochet-Choné’s 2D model using duality</h2>
-        <div class="speaker">
-          <strong>Kelvin Shuangjian Zhang</strong> <div class="affiliation">Fudan University</div> 
-        </div>
-        <div class="meta"><a class="email" href="mailto:ksjzhang@fudan.edu.cn">ksjzhang@fudan.edu.cn</a></div>
-      </header>
+      
       <p class="abstract">The principal-agent problem is one of the central problems in microeconomics with many applications. Existence, uniqueness, convexity/concavity, regularity, and characterization of the solutions have been widely studied after Mirrlees and Spence in the 1970s. For multidimensional spaces of agents and products, Rochet and Choné [1] reformulated this problem to a concave maximization over the set of convex functions, by assuming agent preferences combine bilinearity in the product and agent parameters with a quasilinear sensitivity to prices. We characterize solutions to this problem by identifying a dual minimization problem. This duality allows us to reduce the solution of the square example of Rochet-Choné to a novel free boundary problem, giving the first analytical description of an overlooked market segment, where the regularity built by Caffarelli-Lions plays a crucial role --- an extension of their regularity work to the quasilinear case is also recently studied. The results profoundly connect with the Optimal Transport theory, a powerful tool with potential applications in many areas.</p>
     </article>
     
@@ -384,5 +204,8 @@
     q.addEventListener('input', filter);
     filter();
   </script>
+
+</main>
+<footer>© 2025 SKKU × Sookmyung.</footer>
 </body>
 </html>
