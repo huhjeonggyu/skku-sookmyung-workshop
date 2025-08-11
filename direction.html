@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Getting Around: Airports ⇄ Sookmyung ⇄ Shilla Stay Mapo | SKKU–Sookmyung Workshop</title>
+  <style>
+    :root{
+      --bg:#fff;
+      --fg:#111;
+      --muted:#666;
+      --brand:#0b66c3;
+      --card:#f6f8fb;
+      --border:#e5e8ee;
+    }
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Pretendard,Apple SD Gothic Neo,Noto Sans KR,Arial,sans-serif; line-height:1.6;}
+    .container{max-width:1100px;margin:0 auto;padding:24px;}
+    header{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-bottom:16px}
+    header h1{font-size:1.4rem;margin:0}
+    nav a{color:var(--brand);text-decoration:none;margin-right:14px;font-weight:bold}
+    nav a:hover{opacity:.85;text-decoration:underline}
+    .notice{background:#fff3cd;border:1px solid #ffe69c;padding:12px;border-radius:8px;color:#664d03;margin:16px 0}
+    .grid{display:grid;grid-template-columns:1fr;gap:16px}
+    @media (min-width: 980px){.grid{grid-template-columns:1fr 1fr}}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:16px}
+    .card h3{margin:0 0 8px 0}
+    .chip{display:inline-block;background:#e9f2ff;border:1px solid #cfe2ff;border-radius:999px;padding:2px 10px;font-size:.85rem;margin-right:8px}
+    .steps{margin:8px 0 0 0;padding-left:18px}
+    .steps li{margin:6px 0}
+    .muted{color:var(--muted);font-size:.95rem}
+    .map{width:100%;height:420px;border:0;border-radius:12px}
+    .two-col{display:grid;grid-template-columns:1fr;gap:16px}
+    @media (min-width: 850px){.two-col{grid-template-columns:1.1fr .9fr}}
+    .section-title{margin-top:24px}
+    .split{display:grid;grid-template-columns:1fr;gap:16px}
+    @media (min-width: 850px){.split{grid-template-columns:1fr 1fr}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Getting Around: Airports ⇄ Sookmyung ⇄ Shilla Stay Mapo</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="timetable.html">Timetable</a>
+        <a href="abstracts.html">Abstracts</a>
+        <a href="participants.html">Participants</a>
+      </nav>
+    </header>
+
+    <div class="notice">
+      Times and fares are indicative and may change. Please re-check with official apps or station information upon arrival.
+    </div>
+
+    <section id="dest" class="two-col">
+      <div>
+        <h2 class="section-title">Destinations</h2>
+        <p><strong>Sookmyung Women's University – Department of Mathematics</strong><br/>100, Cheongpa-ro 47-gil, Yongsan-gu, Seoul 04310</p>
+        <p class="muted">Closest stations: Line 4 <strong>Sookmyung Univ. (Galwol)</strong> or Line 1 <strong>Namyeong</strong>.</p>
+        <p style="margin-top:12px"><strong>Hotel (Conference lodging): Shilla Stay Mapo</strong><br/>83, Mapo-daero, Mapo-gu, Seoul (near <strong>Gongdeok Station</strong> on AREX / Lines 5 & 6)</p>
+      </div>
+      <div class="split">
+        <iframe class="map" src="https://www.google.com/maps?q=Sookmyung%20Women%E2%80%99s%20University%20Seoul&output=embed" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe class="map" src="https://www.google.com/maps?q=Shilla%20Stay%20Mapo%2C%20Seoul&output=embed" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+
+    <section id="airports-hotel" class="section-title">
+      <h2>1) From the Airports → <em>Shilla Stay Mapo (Hotel)</em></h2>
+      <div class="grid">
+        <div class="card">
+          <h3>From Incheon (ICN): AREX → Gongdeok</h3>
+          <div>
+            <span class="chip">~50–60 min</span>
+            <span class="chip">~₩4,500–5,500</span>
+          </div>
+          <ol class="steps">
+            <li>Take <strong>AREX</strong> (all-stop or express) to <strong>Gongdeok Station</strong>.</li>
+            <li>Follow exit signs toward Shilla Stay Mapo; walk ~3–7 min (hotel just off Mapo-daero).</li>
+          </ol>
+          <p class="muted">Express may require transfer at Seoul Station depending on schedule.</p>
+        </div>
+        <div class="card">
+          <h3>From Gimpo (GMP): AREX → Gongdeok</h3>
+          <div>
+            <span class="chip">~15–25 min</span>
+            <span class="chip">~₩1,450–2,000</span>
+          </div>
+          <ol class="steps">
+            <li>From <strong>Gimpo Airport Station</strong>, take <strong>AREX</strong> to <strong>Gongdeok</strong> (few stops).</li>
+            <li>Walk ~3–7 min to the hotel following station signage.</li>
+          </ol>
+          <p class="muted">Alternatively, Line 5 or Line 6 also serve Gongdeok.</p>
+        </div>
+        <div class="card">
+          <h3>Taxi</h3>
+          <div>
+            <span class="chip">ICN ~₩55,000–85,000 · 45–70 min</span>
+            <span class="chip">GMP ~₩20,000–35,000 · 20–40 min</span>
+          </div>
+          <p class="muted">Time and fare vary by traffic/peak hours.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="hotel-sookmyung" class="section-title">
+      <h2>2) <em>Shilla Stay Mapo</em> ⇄ Sookmyung (Math Dept)</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Subway (fastest, 2 transfers or fewer)</h3>
+          <div>
+            <span class="chip">~15–25 min</span>
+            <span class="chip">~₩1,450</span>
+          </div>
+          <ol class="steps">
+            <li>From <strong>Gongdeok Station</strong>, take <strong>Line 6</strong> toward <em>Samgakji</em> (2 stops).</li>
+            <li>Transfer at <strong>Samgakji</strong> to <strong>Line 4</strong> (northbound) → <strong>Sookmyung Univ. (Galwol)</strong> (1 stop).</li>
+            <li>Exit 10 and walk to campus (5–10 min to Math Dept within campus).</li>
+          </ol>
+          <p class="muted">Alternatively: AREX to <strong>Seoul Station</strong> → Line 4 to Sookmyung (1 stop).</p>
+        </div>
+        <div class="card">
+          <h3>Taxi</h3>
+          <div>
+            <span class="chip">~10–20 min</span>
+            <span class="chip">~₩8,000–15,000</span>
+          </div>
+          <p class="muted">Useful when carrying posters or luggage; traffic near central Seoul may add time.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="airports-sookmyung" class="section-title">
+      <h2>3) From the Airports → <em>Sookmyung (Math Dept)</em></h2>
+      <div class="grid">
+        <div class="card">
+          <h3>From Incheon (ICN): AREX → Line 4</h3>
+          <div>
+            <span class="chip">~60–70 min</span>
+            <span class="chip">~₩5,500–7,500</span>
+          </div>
+          <ol class="steps">
+            <li>AREX to <strong>Seoul Station</strong>.</li>
+            <li>Transfer to <strong>Line 4</strong> → <strong>Sookmyung Univ. (Galwol)</strong> (1 stop).</li>
+          </ol>
+        </div>
+        <div class="card">
+          <h3>From Gimpo (GMP): AREX → Line 4</h3>
+          <div>
+            <span class="chip">~25–35 min</span>
+            <span class="chip">~₩2,800–4,900</span>
+          </div>
+          <ol class="steps">
+            <li>AREX to <strong>Seoul Station</strong>.</li>
+            <li>Transfer to <strong>Line 4</strong> → <strong>Sookmyung Univ. (Galwol)</strong> (1 stop).</li>
+          </ol>
+        </div>
+        <div class="card">
+          <h3>Taxi</h3>
+          <div>
+            <span class="chip">ICN ~50–80 min · ~₩60,000–90,000+</span>
+            <span class="chip">GMP ~30–50 min · ~₩25,000–40,000</span>
+          </div>
+        </div>
+      </div>
+      <p class="muted">Note: Sookmyung Univ. Station and Namyeong Station are within a 2–3 min walk of each other.</p>
+    </section>
+  </div>
+</body>
+</html>
