@@ -1,8 +1,9 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
 <title>Timetable — SKKU–Sookmyung Workshop 2025</title>
 <style>
 :root{--accent:#2b2b2b;}
@@ -19,62 +20,46 @@ h1{margin:0 0 12px}
 .table thead th{position:sticky; top:60px; background:#fafafa; z-index:5}
 .table td.chair{font-style:italic; color:#444; background:#fcfcfc}
 .is-chair td{border-top:0}
+
+/* Timetable styles */
+.day { margin-top: 24px; }
+.day h2 { margin: 24px 0 8px; }
+.day .chair { margin: 0 0 12px; color: #444; }
+.group { margin: 8px 0 20px; }
+.group h3 { margin: 12px 0 6px; }
+table.timetable { width: 100%; border-collapse: collapse; }
+table.timetable th, table.timetable td { border-bottom: 1px solid #eee; padding: 8px 10px; text-align: left; }
+table.timetable tr.break td { color: #666; font-style: italic; }
+
+.day { margin-top: 24px; }
+.day h2 { margin: 24px 0 8px; }
+.day .chair { margin: 0 0 12px; color: #444; }
+.group { margin: 8px 0 20px; }
+.group h3 { margin: 12px 0 6px; }
+table.timetable { width: 100%; border-collapse: collapse; }
+table.timetable th, table.timetable td { border-bottom: 1px solid #eee; padding: 8px 10px; text-align: left; }
+table.timetable tr.break td { color: #666; font-style: italic; }
 </style>
 </head>
 <body>
 <header>
-  <nav class="nav">
-    <a href="index.html">Home</a>
-    <a href="timetable.html">Timetable</a>
-    <a href="abstracts.html">Abstracts</a>
-    <a href="participants.html">Participants</a>
-      <a href="direction.html">Direction</a>
-  </nav>
+<nav class="nav">
+<a href="index.html">Home</a>
+<a href="timetable.html">Timetable</a>
+<a href="abstracts.html">Abstracts</a>
+<a href="participants.html">Participants</a>
+<a href="direction.html">Direction</a>
+</nav>
 </header>
 <main class="container">
-  <h1>Timetable</h1>
-  <table class='table'><thead><tr><th>Time</th><th>08.26 (Tue)</th><th>08.27 (Wed)</th><th>08.28 (Thu)</th></tr></thead><tbody><tr class=''><td></td><td></td><td></td><td></td></tr><tr class=''><td></td><td>Plenary Talk</td><td></td><td></td></tr><tr class='is-chair'><td class="chair"></td><td class="chair">Chair: Hyeng Keun Koo</td><td class="chair">Chair: Tomonori Uchiyama</td><td class="chair">Chair: Takanori Adachi</td></tr><tr class=''><td>09:45 - 10:45</td><td>Xuedong He</td><td>Hyeng Keun Koo</td><td>Jiro Akahori</td></tr><tr class=''><td>10:45 - 11:00</td><td>Break</td><td>Break</td><td>Break</td></tr><tr class=''><td></td><td></td><td></td><td></td></tr><tr class=''><td></td><td>Invited Talk</td><td></td><td></td></tr><tr class='is-chair'><td class="chair"></td><td class="chair">Chair: Hyeng Keun Koo</td><td class="chair">Chair: Tomonori Uchiyama</td><td class="chair">Chair: Takanori Adachi</td></tr><tr class=''><td>11:00 - 11:30</td><td>Takanori Adachi</td><td>Toshinao Yoshiba</td><td>Jaegi Jeon</td></tr><tr class=''><td>11:30 - 12:00</td><td>Shuenn-Jyi Sheu</td><td>Panki Kim</td><td>Tomooki Yuasa</td></tr><tr class=''><td></td><td></td><td></td><td></td></tr><tr class=''><td>12:00 - 13:30</td><td>Lunch</td><td>Lunch</td><td>Lunch</td></tr><tr class=''><td></td><td></td><td></td><td></td></tr><tr class=''><td></td><td>Invited Talk</td><td></td><td></td></tr><tr class='is-chair'><td class="chair"></td><td class="chair">Chair: Jin Hyuk Choi</td><td class="chair">Chair: Bong-Gyu Jang</td><td class="chair">Chair: Jaegi Jeon</td></tr><tr class=''><td>13:30 - 14:00</td><td>Tomonori Uchiyama</td><td>Yuchao Dong</td><td>Kohta Takehara</td></tr><tr class=''><td>14:00 - 14:30</td><td>Hoi Ying Wong</td><td>Lingfei Li</td><td>Kyoko Yagi</td></tr><tr class=''><td>14:30 - 15:00</td><td>Chii-Ruey Hwang</td><td>Tingjin Yan</td><td>Ji-Hun Yoon</td></tr><tr class=''><td>15:00 - 15:20</td><td>Break</td><td>Break</td><td>Donghyun Kim</td></tr><tr class=''><td></td><td></td><td></td><td></td></tr><tr class=''><td></td><td>Invited Talk</td><td></td><td></td></tr><tr class='is-chair'><td class="chair"></td><td class="chair">Chair: Shuenn-Jyi Sheu</td><td class="chair">Chair: Hoi Ying Wong</td><td class="chair"></td></tr><tr class=''><td>15:20 - 15:50</td><td>Kazuhiro Yasuda</td><td>Chi Seng Pun</td><td></td></tr><tr class=''><td>15:50 - 16:20</td><td>Li-Hsien Sun</td><td>Kelvin Shuangjian Zhang</td><td></td></tr><tr class=''><td>16:20 - 16:50</td><td>Hiroaki Hata</td><td>Bong-Gyu Jang</td><td></td></tr><tr class=''><td>16:50 - 17:10</td><td>Break</td><td>Break</td><td></td></tr><tr class=''><td></td><td></td><td></td><td></td></tr><tr class=''><td></td><td>Invited Talk</td><td></td><td></td></tr><tr class='is-chair'><td class="chair"></td><td class="chair">Chair: Donghyun Kim</td><td class="chair">Chair: Ji-Hun Yoon</td><td class="chair"></td></tr><tr class=''><td>17:10 - 17:40</td><td>Mei Choi Chiu</td><td>Jun Moon</td><td></td></tr><tr class=''><td>17:40 - 18:10</td><td>Jin Hyuk Choi</td><td>Teruyoshi Suzuki</td><td></td></tr><tr class=''><td></td><td></td><td></td><td></td></tr><tr class=''><td>18:10 - 20:00</td><td>Dinner</td><td>Dinner</td><td></td></tr></tbody></table>
 
-<h2 style='margin-top:48px'>Talk Titles & Speakers by Day</h2>
-<h2 style='margin-top:48px'>08.26 (Tue)</h2>
-<table class='table'><thead><tr><th style='width:15%'>Time</th><th style='width:25%'>Speaker</th><th style='width:25%'>Affiliation</th><th>Title</th></tr></thead><tbody>
-<tr><td>09:45 - 10:45</td><td>Xuedong He</td><td>Chinese University of Hong Kong (CUHK)</td><td>Dynamic Asset Pricing with α-MEU Model</td></tr>
-<tr><td>11:00 - 11:30</td><td>Takanori Adachi</td><td>Tokyo Metropolitan University (TMU)</td><td>A geometric model of synthetic filtrations</td></tr>
-<tr><td>11:30 - 12:00</td><td>Shuenn-Jyi Sheu</td><td>National Central University (NCU)</td><td>Some studies of Merton’s Portfolio Optimization Problems</td></tr>
-<tr><td>13:30 - 14:00</td><td>Tomonori Uchiyama</td><td>Tokyo Metropolitan University (TMU)</td><td>Asset Prices and Sustainable Investing under Double Materiality</td></tr>
-<tr><td>14:00 - 14:30</td><td>Hoi Ying Wong</td><td>Chinese University of Hong Kong (CUHK)</td><td>DeepMartingale: Duality of the optimal stopping problem with expressivity</td></tr>
-<tr><td>14:30 - 15:00</td><td>Chii-Ruey Hwang</td><td>Academia Sinica</td><td>Monte Carlo Markov Processes</td></tr>
-<tr><td>15:20 - 15:50</td><td>Kazuhiro Yasuda</td><td>Hosei University</td><td>One-Step Survival Method for Barrier Option Price and Greeks Calculation under Heston Model</td></tr>
-<tr><td>15:50 - 16:20</td><td>Li-Hsien Sun</td><td>National Central University (NCU)</td><td>Partial Information in a Mean-Variance Portfolio Selection Game</td></tr>
-<tr><td>16:20 - 16:50</td><td>Hiroaki Hata</td><td>Hitotsubashi University</td><td>Optimal consumption and investment problem with delay under partial information</td></tr>
-<tr><td>17:10 - 17:40</td><td>Mei Choi Chiu</td><td>Education University of Hong Kong (EdUHK)</td><td>Spike variational reinforcement learning of equilibrium mean-variance investment strategy</td></tr>
-<tr><td>17:40 - 18:10</td><td>Jin Hyuk Choi</td><td>Ulsan National Institute of Science and Technology (UNIST)</td><td>Unified asymptotics for investment under illiquidity: transaction costs and search frictions</td></tr>
-</tbody></table>
-<h2 style='margin-top:48px'>08.27 (Wed)</h2>
-<table class='table'><thead><tr><th style='width:15%'>Time</th><th style='width:25%'>Speaker</th><th style='width:25%'>Affiliation</th><th>Title</th></tr></thead><tbody>
-<tr><td>09:45 - 10:45</td><td>Hyeng Keun Koo</td><td>Ajou University</td><td>Can Dynamic Portfolio Theory Be Practically Implemented?</td></tr>
-<tr><td>11:00 - 11:30</td><td>Toshinao Yoshiba</td><td>Tokyo Metropolitan University (TMU)</td><td>Dynamic skew-t copula modelling for multivariate asset price movement</td></tr>
-<tr><td>11:30 - 12:00</td><td>Panki Kim</td><td>Seoul National University (SNU)</td><td>Sharp estimates of transition densities of jump processes</td></tr>
-<tr><td>13:30 - 14:00</td><td>Yuchao Dong</td><td>Tongji University</td><td>Data-Driven Merton’s Strategies via Policy Randomization</td></tr>
-<tr><td>14:00 - 14:30</td><td>Lingfei Li</td><td>Chinese University of Hong Kong (CUHK)</td><td>Reinforcement learning for jump-diffusions with financial applications</td></tr>
-<tr><td>14:30 - 15:00</td><td>Tingjin Yan</td><td>East China Normal University</td><td>Risk-Sensitive Reinforcement Learning with Information Costs</td></tr>
-<tr><td>15:20 - 15:50</td><td>Chi Seng Pun</td><td>Nanyang Technological University (NTU Singapore)</td><td>Backward Stochastic Volterra Integral Equations with General Nonlinearities</td></tr>
-<tr><td>15:50 - 16:20</td><td>Kelvin Shuangjian Zhang</td><td>Fudan University</td><td>Characterization of the optimal solutions to the Rochet-Choné’s 2D model using duality</td></tr>
-<tr><td>16:20 - 16:50</td><td>Bong-Gyu Jang</td><td>POSTECH</td><td>Advancing Yield Curve Forecasting: Deep Learning Nelson-Siegel Models and Macroeconomic Insights</td></tr>
-<tr><td>17:10 - 17:40</td><td>Jun Moon</td><td>Hanyang University</td><td>Linear-Quadratic Stackelberg Games for Jump-Diffusion Systems</td></tr>
-<tr><td>17:40 - 18:10</td><td>Teruyoshi Suzuki</td><td>Hokkaido University</td><td>The Dynamics of Takeovers through Exchange Offers in the Presence of Competition</td></tr>
-</tbody></table>
-<h2 style='margin-top:48px'>08.28 (Thu)</h2>
-<table class='table'><thead><tr><th style='width:15%'>Time</th><th style='width:25%'>Speaker</th><th style='width:25%'>Affiliation</th><th>Title</th></tr></thead><tbody>
-<tr><td>09:45 - 10:45</td><td>Jiro Akahori</td><td>Ritsumeikan University</td><td>Volatility estimation from a view point of entropy</td></tr>
-<tr><td>11:00 - 11:30</td><td>Jaegi Jeon</td><td>Chonnam National University</td><td>Pontryagin-Guided Deep Learning for Large-Scale Constrained Dynamic Portfolio Choice</td></tr>
-<tr><td>11:30 - 12:00</td><td>Tomooki Yuasa</td><td>Tokyo Metropolitan University (TMU)</td><td>Randomized multi-factor approximation for stochastic volterra equations with fractional kernel</td></tr>
-<tr><td>13:30 - 14:00</td><td>Kohta Takehara</td><td>Tokyo Metropolitan University (TMU)</td><td>Design of Decentralized Exchanges under Concentrated Liquidity</td></tr>
-<tr><td>14:00 - 14:30</td><td>Kyoko Yagi</td><td>Tokyo Metropolitan University (TMU)</td><td>Optimal Acquisition Contract Design under Asymmetric Information: The Role of Earnouts and Separating Menus</td></tr>
-<tr><td>14:30 - 15:00</td><td>Ji-Hun Yoon</td><td>Pusan National University (PNU)</td><td>An analytic pricing formula for timer options under constant elasticity of variance with stochastic volatility</td></tr>
-<tr><td>15:00 - 15:20</td><td>Donghyun Kim</td><td>Gyeongsang National University</td><td>A local volatility correction to mean-reverting stochastic volatility model for pricing derivatives</td></tr>
-</tbody></table>
-
+<h2 style="margin-top:48px">Talk Titles &amp; Speakers by Day</h2>
+<h2 style="margin-top:48px">08.26 (Tue)</h2>
+<table class="table"><thead><tr><th style="width:15%">Time</th><th style="width:25%">Speaker</th><th style="width:25%">Affiliation</th><th>Title</th></tr></thead><tbody><tr><td></td><td>Plenary Talk</td></tr><tr><td></td><td>Chair: Hyeng Keun Koo</td></tr><tr><td>10:00 - 11:00</td><td>Xuedong He (Chinese University of Hong Kong (CUHK))</td></tr><tr class="break"><td>11:00 - 11:10</td><td>Break</td></tr><tr><td></td><td>Invited Talk</td></tr><tr><td></td><td>Chair: Hyeng Keun Koo</td></tr><tr><td>11:10 - 11:40</td><td>Takanori Adachi (Tokyo Metropolitan University (TMU))</td></tr><tr><td>11:40 - 12:10</td><td>Shuenn-Jyi Sheu (National Central University (NCU))</td></tr><tr><td>12:10 - 13:20</td><td>Lunch</td></tr><tr><td></td><td>Invited Talk</td></tr><tr><td></td><td>Chair: Jin Hyuk Choi</td></tr><tr><td>13:20 - 13:50</td><td>Chii-Ruey Hwang (Academia Sinica)</td></tr><tr><td>13:50 - 14:20</td><td>Tomonori Uchiyama (Tokyo Metropolitan University (TMU))</td></tr><tr><td>14:20 - 14:50</td><td>Hoi Ying Wong (Chinese University of Hong Kong (CUHK))</td></tr><tr class="break"><td>14:50 - 15:10</td><td>Break</td></tr><tr><td></td><td>Invited Talk</td></tr><tr><td></td><td>Chair: Shuenn-Jyi Sheu</td></tr><tr><td>15:10 - 15:40</td><td>Kazuhiro Yasuda (Hosei University)</td></tr><tr><td>15:40 - 16:10</td><td>Li-Hsien Sun (National Central University (NCU))</td></tr><tr><td>16:10 - 16:40</td><td>Hiroaki Hata (Hitotsubashi University)</td></tr><tr class="break"><td>16:40 - 17:00</td><td>Break</td></tr><tr><td></td><td>Invited Talk</td></tr><tr><td></td><td>Chair: Donghyun Kim</td></tr><tr><td>17:00 - 17:30</td><td>Mei Choi Chiu (Education University of Hong Kong (EdUHK))</td></tr><tr><td>17:30 - 18:00</td><td>Jin Hyuk Choi (Ulsan National Institute of Science and Technology (UNIST))</td></tr><tr><td>18:00 - 20:00</td><td>Dinner</td></tr></tbody></table>
+<h2 style="margin-top:48px">08.27 (Wed)</h2>
+<table class="table"><thead><tr><th style="width:15%">Time</th><th style="width:25%">Speaker</th><th style="width:25%">Affiliation</th><th>Title</th></tr></thead><tbody><tr><td></td><td>Chair: Tomonori Uchiyama</td></tr><tr><td>10:00 - 11:00</td><td>Hyeng Keun Koo (Ajou University)</td></tr><tr class="break"><td>11:00 - 11:10</td><td>Break</td></tr><tr><td></td><td>Chair: Tomonori Uchiyama</td></tr><tr><td>11:10 - 11:40</td><td>Toshinao Yoshiba (Tokyo Metropolitan University (TMU))</td></tr><tr><td>11:40 - 12:10</td><td>Panki Kim (Seoul National University (SNU))</td></tr><tr><td>12:10 - 13:20</td><td>Lunch</td></tr><tr><td></td><td>Chair: Bong-Gyu Jang</td></tr><tr><td>13:20 - 13:50</td><td>Yuchao Dong (Tongji University)</td></tr><tr><td>13:50 - 14:20</td><td>Lingfei Li (Chinese University of Hong Kong (CUHK))</td></tr><tr><td>14:20 - 14:50</td><td>Tingjin Yan (East China Normal University)</td></tr><tr class="break"><td>14:50 - 15:10</td><td>Break</td></tr><tr><td></td><td>Chair: Hoi Ying Wong</td></tr><tr><td>15:10 - 15:40</td><td>Chi Seng Pun (Nanyang Technological University (NTU Singapore))</td></tr><tr><td>15:40 - 16:10</td><td>Teruyoshi Suzuki (Hokkaido University)</td></tr><tr><td>16:10 - 16:40</td><td>Bong-Gyu Jang (POSTECH)</td></tr><tr><td>16:40 - 17:10</td><td>Jun Moon (Hanyang University)</td></tr><tr><td>18:00 - 20:00</td><td>Dinner</td></tr></tbody></table>
+<h2 style="margin-top:48px">08.28 (Thu)</h2>
+<table class="table"><thead><tr><th style="width:15%">Time</th><th style="width:25%">Speaker</th><th style="width:25%">Affiliation</th><th>Title</th></tr></thead><tbody><tr><td></td><td>Chair: Takanori Adachi</td></tr><tr><td>10:00 - 11:00</td><td>Jiro Akahori (Ritsumeikan University)</td></tr><tr class="break"><td>11:00 - 11:10</td><td>Break</td></tr><tr><td></td><td>Chair: Takanori Adachi</td></tr><tr><td>11:10 - 11:40</td><td>Kyoko Yagi (Tokyo Metropolitan University (TMU))</td></tr><tr><td>11:40 - 12:10</td><td>Kohta Takehara (Tokyo Metropolitan University (TMU))</td></tr><tr><td>12:10 - 14:00</td><td>Lunch</td></tr><tr><td></td><td>Chair: Ji-Hun Yoon</td></tr><tr><td>14:00 - 14:30</td><td>Jaegi Jeon (Chonnam National University)</td></tr><tr><td>14:30 - 15:00</td><td>Tomooki Yuasa (Tokyo Metropolitan University (TMU))</td></tr><tr><td>15:00 - 15:30</td><td>Kelvin Shuangjian Zhang (Fudan University)</td></tr><tr class="break"><td>15:30 - 15:50</td><td>Break</td></tr><tr><td></td><td>Chair: Jaegi Jeon</td></tr><tr><td>15:50 - 16:20</td><td>Ji-Hun Yoon (Pusan National University (PNU))</td></tr><tr><td>16:20 - 16:50</td><td>Donghyun Kim (Gyeongsang National University)</td></tr></tbody></table>
 </main>
-</body>
+<div class="container"><section class="day"><h2>08.26 (Tue)</h2><p class="chair"><strong>Chair: </strong>Donghyun Kim</p><div class="group"><h3>Plenary Talk</h3><table class="timetable"><thead><tr><th>Time</th><th>Talk</th></tr></thead><tbody><tr><td>10:00 - 11:00</td><td>Xuedong He</td></tr><tr class="break"><td>11:00 - 11:10</td><td>Break</td></tr></tbody></table></div><div class="group"><h3>Invited Talk</h3><table class="timetable"><thead><tr><th>Time</th><th>Talk</th></tr></thead><tbody><tr><td>11:10 - 11:40</td><td>Takanori Adachi</td></tr><tr><td>11:40 - 12:10</td><td>Shuenn-Jyi Sheu</td></tr><tr><td>12:10 - 13:20</td><td>Lunch</td></tr><tr><td>13:20 - 13:50</td><td>Chii-Ruey Hwang</td></tr><tr><td>13:50 - 14:20</td><td>Tomonori Uchiyama</td></tr><tr><td>14:20 - 14:50</td><td>Hoi Ying Wong</td></tr><tr class="break"><td>14:50 - 15:10</td><td>Break</td></tr><tr><td>15:10 - 15:40</td><td>Kazuhiro Yasuda</td></tr><tr><td>15:40 - 16:10</td><td>Li-Hsien Sun</td></tr><tr><td>16:10 - 16:40</td><td>Hiroaki Hata</td></tr><tr class="break"><td>16:40 - 17:00</td><td>Break</td></tr><tr><td>17:00 - 17:30</td><td>Mei Choi Chiu</td></tr><tr><td>17:30 - 18:00</td><td>Jin Hyuk Choi</td></tr><tr><td>18:00 - 20:00</td><td>Dinner</td></tr></tbody></table></div></section><section class="day"><h2>08.27 (Wed)</h2><p class="chair"><strong>Chair: </strong>Hoi Ying Wong</p><div class="group"><h3>Invited Talk</h3><table class="timetable"><thead><tr><th>Time</th><th>Talk</th></tr></thead><tbody><tr><td>10:00 - 11:00</td><td>Hyeng Keun Koo</td></tr><tr class="break"><td>11:00 - 11:10</td><td>Break</td></tr><tr><td>11:10 - 11:40</td><td>Toshinao Yoshiba</td></tr><tr><td>11:40 - 12:10</td><td>Panki Kim</td></tr><tr><td>12:10 - 13:20</td><td>Lunch</td></tr><tr><td>13:20 - 13:50</td><td>Yuchao Dong</td></tr><tr><td>13:50 - 14:20</td><td>Lingfei Li</td></tr><tr><td>14:20 - 14:50</td><td>Tingjin Yan</td></tr><tr class="break"><td>14:50 - 15:10</td><td>Break</td></tr><tr><td>15:10 - 15:40</td><td>Chi Seng Pun</td></tr><tr><td>15:40 - 16:10</td><td>Teruyoshi Suzuki</td></tr><tr><td>16:10 - 16:40</td><td>Bong-Gyu Jang</td></tr><tr><td>16:40 - 17:10</td><td>Jun Moon</td></tr><tr><td>18:00 - 20:00</td><td>Dinner</td></tr></tbody></table></div></section><section class="day"><h2>08.28 (Thu)</h2><p class="chair"><strong>Chair: </strong>Jaegi Jeon</p><div class="group"><h3>Invited Talk</h3><table class="timetable"><thead><tr><th>Time</th><th>Talk</th></tr></thead><tbody><tr><td>10:00 - 11:00</td><td>Jiro Akahori</td></tr><tr class="break"><td>11:00 - 11:10</td><td>Break</td></tr><tr><td>11:10 - 11:40</td><td>Kyoko Yagi</td></tr><tr><td>11:40 - 12:10</td><td>Kohta Takehara</td></tr><tr><td>12:10 - 14:00</td><td>Lunch</td></tr><tr><td>14:00 - 14:30</td><td>Jaegi Jeon</td></tr><tr><td>14:30 - 15:00</td><td>Tomooki Yuasa</td></tr><tr><td>15:00 - 15:30</td><td>Kelvin Shuangjian Zhang</td></tr><tr class="break"><td>15:30 - 15:50</td><td>Break</td></tr><tr><td>15:50 - 16:20</td><td>Ji-Hun Yoon</td></tr><tr><td>16:20 - 16:50</td><td>Donghyun Kim</td></tr></tbody></table></div></section></div></body>
 </html>
