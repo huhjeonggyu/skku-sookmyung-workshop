@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <title>Abstracts — SKKU–Sookmyung Workshop 2025</title>
 <style>
-:root{--accent:#2b2b2b;}
+:root{--accent:#2b2b2b; --brand:#0b66c3;}
 *{box-sizing:border-box}
 body{font-family:system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans', 'Apple SD Gothic Neo', Arial, sans-serif; margin:0; color:#222;}
 header{position:sticky; top:0; background:#fff; border-bottom:1px solid #eee; z-index:10}
@@ -19,8 +19,25 @@ footer{border-top:1px solid #eee; margin-top:40px; padding:20px; color:#666}
 
 .talk{padding:16px 0; border-top:1px solid #eaeaea;}
 .talk:first-of-type{border-top:none}
+.talk.plenary-talk { border-left: 4px solid var(--brand); padding-left: 16px; }
 .talk header{margin-bottom:6px}
 .talk .title{margin:0 0 6px}
+.badge {
+  display: inline-block;
+  background-color: var(--brand);
+  color: #fff;
+  padding: 3px 10px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border-radius: 999px;
+  margin-left: 8px;
+  vertical-align: middle;
+}
+.section-title {
+  margin-top: 40px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #eee;
+}
 </style>
 </head>
 <body>
@@ -45,10 +62,46 @@ footer{border-top:1px solid #eee; margin-top:40px; padding:20px; color:#666}
       <input id="q" type="search" placeholder="Search: title, speaker, affiliation, keywords...">
     </div>
     <div id="list">
+    
+    <h1 class="section-title">Plenary Talks</h1>
+
+    <article class="talk plenary-talk">
+      <header>
+        <h2 class="title">Volatility estimation from a view point of entropy</h2>
+        <div class="speaker">
+          <strong>Jiro Akahori</strong> <div class="affiliation">Ritsumeikan University</div> <span class="badge">Plenary</span>
+        </div>
+        <div class="meta"><a class="email" href="mailto:jiro.akahori@gmail.com">jiro.akahori@gmail.com</a></div>
+      </header>
+      <p class="abstract">We first revisit the volatility estimation approach proposed by N. Kunitomo and S. Sato, and second, we show that the volatility estimator proposed by P. Malliavin and M.E. Mancino can be understood in a unified way by the approach.  The point of view connects the HFS to the framework of general statistical learning theory,</p>
+    </article>
+    
+    <article class="talk plenary-talk">
+      <header>
+        <h2 class="title">Dynamic Asset Pricing with α-MEU Model</h2>
+        <div class="speaker">
+          <strong>Xuedong He</strong> <div class="affiliation">Chinese University of Hong Kong (CUHK)</div> <span class="badge">Plenary</span>
+        </div>
+        <div class="meta"><a class="email" href="mailto:xdhe@se.cuhk.edu.hk">xdhe@se.cuhk.edu.hk</a></div>
+      </header>
+      <p class="abstract">We study a dynamic asset pricing problem in which a representative agent is ambiguous about the aggregate endowment growth rate and trades a risky stock, human capital, and a risk-free asset to maximize her preference value of consumption represented by the α-maxmin expected utility model. This preference model is known to be dynamically inconsistent, so we consider intra-personal equilibrium strategies for the representative agent and define the market equilibrium as the one in which the strategy that clears the market is an intrapersonal equilibrium. We prove the existence and uniqueness of the market equilibrium and show that the asset prices in the equilibrium are the same as in the case when the agent does not perceive any ambiguity but believes in a particular probabilistic model of the endowment process. We show that with reasonable parameter values, the more ambiguity the agent perceives or the more ambiguity-averse she is, the lower the risk-free rate, the higher the stock price, the higher the stock risk premium, and the lower the stock volatility.</p>
+    </article>
+    
+    <article class="talk plenary-talk">
+      <header>
+        <h2 class="title">Can Dynamic Portfolio Theory Be Practically Implemented?</h2>
+        <div class="speaker">
+          <strong>Hyeng Keun Koo</strong> <div class="affiliation">Ajou University</div> <span class="badge">Plenary</span>
+        </div>
+        <div class="meta"><a class="email" href="mailto:hkoo@ajou.ac.kr">hkoo@ajou.ac.kr</a></div>
+      </header>
+      <p class="abstract">The dynamic portfolio theory, despite its theoretical elegance and academic contributions, has had limited impact on real-world investment practice. To better understand this gap, I will review the historical development of the theory and critically evaluate Cochrane’s assessment. I will discuss the key advancements needed to make implementation feasible—including solutions to the general investment problem, empirical identification of intertemporal hedging components, and the design of sustainable payout policies. I will then briefly present my previous and ongoing work with coauthors that contributes to addressing these implementation challenges.</p>
+    </article>
+    
+    <h1 class="section-title">Invited Talks</h1>
       
     <article class="talk">
       <header>
-<hr style="margin:40px 0;border:0;border-top:1px solid #ccc">
         <h2 class="title">A geometric model of synthetic filtrations</h2>
         <div class="speaker">
           <strong>Takanori Adachi</strong> <div class="affiliation">Tokyo Metropolitan University (TMU)</div> 
@@ -60,19 +113,6 @@ footer{border-top:1px solid #eee; margin-top:40px; padding:20px; color:#666}
     
     <article class="talk">
       <header>
-<hr style="margin:40px 0;border:0;border-top:1px solid #ccc">
-        <h2 class="title">Volatility estimation from a view point of entropy</h2>
-        <div class="speaker">
-          <strong>Jiro Akahori</strong> <div class="affiliation">Ritsumeikan University</div> <span class="badge">plenary</span>
-        </div>
-        <div class="meta"><a class="email" href="mailto:jiro.akahori@gmail.com">jiro.akahori@gmail.com</a></div>
-      </header>
-      <p class="abstract">We first revisit the volatility estimation approach proposed by N. Kunitomo and S. Sato, and second, we show that the volatility estimator proposed by P. Malliavin and M.E. Mancino can be understood in a unified way by the approach.  The point of view connects the HFS to the framework of general statistical learning theory,</p>
-    </article>
-    
-    <article class="talk">
-      <header>
-<hr style="margin:40px 0;border:0;border-top:1px solid #ccc">
         <h2 class="title">Spike variational reinforcement learning of equilibrium mean-variance investment strategy</h2>
         <div class="speaker">
           <strong>Mei Choi Chiu</strong> <div class="affiliation">Education University of Hong Kong (EdUHK)</div> 
@@ -84,7 +124,6 @@ footer{border-top:1px solid #eee; margin-top:40px; padding:20px; color:#666}
     
     <article class="talk">
       <header>
-<hr style="margin:40px 0;border:0;border-top:1px solid #ccc">
         <h2 class="title">Unified asymptotics for investment under illiquidity: transaction costs and search frictions</h2>
         <div class="speaker">
           <strong>Jin Hyuk Choi</strong> <div class="affiliation">Ulsan National Institute of Science and Technology (UNIST)</div> 
@@ -96,7 +135,6 @@ footer{border-top:1px solid #eee; margin-top:40px; padding:20px; color:#666}
     
     <article class="talk">
       <header>
-<hr style="margin:40px 0;border:0;border-top:1px solid #ccc">
         <h2 class="title">Data-Driven Merton’s Strategies via Policy Randomization</h2>
         <div class="speaker">
           <strong>Yuchao Dong</strong> <div class="affiliation">Tongji University</div> 
@@ -108,7 +146,6 @@ footer{border-top:1px solid #eee; margin-top:40px; padding:20px; color:#666}
     
     <article class="talk">
       <header>
-<hr style="margin:40px 0;border:0;border-top:1px solid #ccc">
         <h2 class="title">Optimal consumption and investment problem with delay under partial information</h2>
         <div class="speaker">
           <strong>Hiroaki Hata</strong> <div class="affiliation">Hitotsubashi University</div> 
@@ -120,19 +157,6 @@ footer{border-top:1px solid #eee; margin-top:40px; padding:20px; color:#666}
     
     <article class="talk">
       <header>
-<hr style="margin:40px 0;border:0;border-top:1px solid #ccc">
-        <h2 class="title">Dynamic Asset Pricing with α-MEU Model</h2>
-        <div class="speaker">
-          <strong>Xuedong He</strong> <div class="affiliation">Chinese University of Hong Kong (CUHK)</div> <span class="badge">plenary</span>
-        </div>
-        <div class="meta"><a class="email" href="mailto:xdhe@se.cuhk.edu.hk">xdhe@se.cuhk.edu.hk</a></div>
-      </header>
-      <p class="abstract">We study a dynamic asset pricing problem in which a representative agent is ambiguous about the aggregate endowment growth rate and trades a risky stock, human capital, and a risk-free asset to maximize her preference value of consumption represented by the α-maxmin expected utility model. This preference model is known to be dynamically inconsistent, so we consider intra-personal equilibrium strategies for the representative agent and define the market equilibrium as the one in which the strategy that clears the market is an intrapersonal equilibrium. We prove the existence and uniqueness of the market equilibrium and show that the asset prices in the equilibrium are the same as in the case when the agent does not perceive any ambiguity but believes in a particular probabilistic model of the endowment process. We show that with reasonable parameter values, the more ambiguity the agent perceives or the more ambiguity-averse she is, the lower the risk-free rate, the higher the stock price, the higher the stock risk premium, and the lower the stock volatility.</p>
-    </article>
-    
-    <article class="talk">
-      <header>
-<hr style="margin:40px 0;border:0;border-top:1px solid #ccc">
         <h2 class="title">Monte Carlo Markov Processes</h2>
         <div class="speaker">
           <strong>Chii-Ruey Hwang</strong> <div class="affiliation">Academia Sinica</div> 
@@ -144,7 +168,6 @@ footer{border-top:1px solid #eee; margin-top:40px; padding:20px; color:#666}
     
     <article class="talk">
       <header>
-<hr style="margin:40px 0;border:0;border-top:1px solid #ccc">
         <h2 class="title">Advancing Yield Curve Forecasting: Deep Learning Nelson-Siegel Models and Macroeconomic Insights</h2>
         <div class="speaker">
           <strong>Bong-Gyu Jang</strong> <div class="affiliation">POSTECH</div> 
@@ -156,19 +179,17 @@ footer{border-top:1px solid #eee; margin-top:40px; padding:20px; color:#666}
     
     <article class="talk">
       <header>
-<hr style="margin:40px 0;border:0;border-top:1px solid #ccc">
         <h2 class="title">Pontryagin-Guided Deep Learning for Large-Scale Constrained Dynamic Portfolio Choice</h2>
         <div class="speaker">
           <strong>Jaegi Jeon</strong> <div class="affiliation">Chonnam National University</div> 
         </div>
         <div class="meta"><a class="email" href="mailto:jaegijeon@jnu.ac.kr">jaegijeon@jnu.ac.kr</a></div>
       </header>
-      <p class="abstract">We present a Pontryagin-Guided Direct Policy Optimization (PG-DPO) method for constrained dynamic portfolio choice - incorporating consumption and multi-asset investment - that scales to thousands of risky assets. By combining neural-network controls with Pontryagin&#x27;s Maximum Principle (PMP), it circumvents the curse of dimensionality that renders dynamic programming (DP) grids intractable beyond a handful of assets. Unlike value-based PDE or BSDE approaches, PG-DPO enforces PMP conditions at each gradient step, naturally accommodating no-short-selling or borrowing constraints and optional consumption bounds. A &quot;one-shot&quot; variant rapidly computes Pontryagin-optimal controls after a brief warm-up, leading to substantially higher accuracy than naive baselines. On modern GPUs, near-optimal solutions often emerge within just one or two minutes of training. Numerical experiments confirm that, for up to 1,000 assets, PG-DPO accurately recovers the known closed-form solution in the unconstrained case and remains tractable under constraints -- far exceeding the longstanding DP-based limit of around seven assets.</p>
+      <p class="abstract">We present a Pontryagin-Guided Direct Policy Optimization (PG-DPO) method for constrained dynamic portfolio choice - incorporating consumption and multi-asset investment - that scales to thousands of risky assets. By combining neural-network controls with Pontryagin's Maximum Principle (PMP), it circumvents the curse of dimensionality that renders dynamic programming (DP) grids intractable beyond a handful of assets. Unlike value-based PDE or BSDE approaches, PG-DPO enforces PMP conditions at each gradient step, naturally accommodating no-short-selling or borrowing constraints and optional consumption bounds. A "one-shot" variant rapidly computes Pontryagin-optimal controls after a brief warm-up, leading to substantially higher accuracy than naive baselines. On modern GPUs, near-optimal solutions often emerge within just one or two minutes of training. Numerical experiments confirm that, for up to 1,000 assets, PG-DPO accurately recovers the known closed-form solution in the unconstrained case and remains tractable under constraints -- far exceeding the longstanding DP-based limit of around seven assets.</p>
     </article>
     
     <article class="talk">
       <header>
-<hr style="margin:40px 0;border:0;border-top:1px solid #ccc">
         <h2 class="title">A local volatility correction to mean-reverting stochastic volatility model for pricing derivatives</h2>
         <div class="speaker">
           <strong>Donghyun Kim</strong> <div class="affiliation">Gyeongsang National University</div> 
@@ -180,7 +201,6 @@ footer{border-top:1px solid #eee; margin-top:40px; padding:20px; color:#666}
     
     <article class="talk">
       <header>
-<hr style="margin:40px 0;border:0;border-top:1px solid #ccc">
         <h2 class="title">Sharp estimates of transition densities of jump processes</h2>
         <div class="speaker">
           <strong>Panki Kim</strong> <div class="affiliation">Seoul National University (SNU)</div> 
@@ -192,19 +212,6 @@ footer{border-top:1px solid #eee; margin-top:40px; padding:20px; color:#666}
     
     <article class="talk">
       <header>
-<hr style="margin:40px 0;border:0;border-top:1px solid #ccc">
-        <h2 class="title">Can Dynamic Portfolio Theory Be Practically Implemented?</h2>
-        <div class="speaker">
-          <strong>Hyeng Keun Koo</strong> <div class="affiliation">Ajou University</div> <span class="badge">plenary</span>
-        </div>
-        <div class="meta"><a class="email" href="mailto:hkoo@ajou.ac.kr">hkoo@ajou.ac.kr</a></div>
-      </header>
-      <p class="abstract">The dynamic portfolio theory, despite its theoretical elegance and academic contributions, has had limited impact on real-world investment practice. To better understand this gap, I will review the historical development of the theory and critically evaluate Cochrane’s assessment. I will discuss the key advancements needed to make implementation feasible—including solutions to the general investment problem, empirical identification of intertemporal hedging components, and the design of sustainable payout policies. I will then briefly present my previous and ongoing work with coauthors that contributes to addressing these implementation challenges.</p>
-    </article>
-    
-    <article class="talk">
-      <header>
-<hr style="margin:40px 0;border:0;border-top:1px solid #ccc">
         <h2 class="title">Reinforcement learning for jump-diffusions with financial applications</h2>
         <div class="speaker">
           <strong>Lingfei Li</strong> <div class="affiliation">Chinese University of Hong Kong (CUHK)</div> 
@@ -216,7 +223,6 @@ footer{border-top:1px solid #eee; margin-top:40px; padding:20px; color:#666}
     
     <article class="talk">
       <header>
-<hr style="margin:40px 0;border:0;border-top:1px solid #ccc">
         <h2 class="title">Linear-Quadratic Stackelberg Games for Jump-Diffusion Systems</h2>
         <div class="speaker">
           <strong>Jun Moon</strong> <div class="affiliation">Hanyang University</div> 
@@ -228,7 +234,6 @@ footer{border-top:1px solid #eee; margin-top:40px; padding:20px; color:#666}
     
     <article class="talk">
       <header>
-<hr style="margin:40px 0;border:0;border-top:1px solid #ccc">
         <h2 class="title">Backward Stochastic Volterra Integral Equations with General Nonlinearities</h2>
         <div class="speaker">
           <strong>Chi Seng Pun</strong> <div class="affiliation">Nanyang Technological University (NTU Singapore)</div> 
@@ -240,7 +245,6 @@ footer{border-top:1px solid #eee; margin-top:40px; padding:20px; color:#666}
     
     <article class="talk">
       <header>
-<hr style="margin:40px 0;border:0;border-top:1px solid #ccc">
         <h2 class="title">Some studies of Merton’s Portfolio Optimization Problems</h2>
         <div class="speaker">
           <strong>Shuenn-Jyi Sheu</strong> <div class="affiliation">National Central University (NCU)</div> 
@@ -252,7 +256,6 @@ footer{border-top:1px solid #eee; margin-top:40px; padding:20px; color:#666}
     
     <article class="talk">
       <header>
-<hr style="margin:40px 0;border:0;border-top:1px solid #ccc">
         <h2 class="title">Partial Information in a Mean-Variance Portfolio Selection Game</h2>
         <div class="speaker">
           <strong>Li-Hsien Sun</strong> <div class="affiliation">National Central University (NCU)</div> 
@@ -264,7 +267,6 @@ footer{border-top:1px solid #eee; margin-top:40px; padding:20px; color:#666}
     
     <article class="talk">
       <header>
-<hr style="margin:40px 0;border:0;border-top:1px solid #ccc">
         <h2 class="title">The Dynamics of Takeovers through Exchange Offers in the Presence of Competition</h2>
         <div class="speaker">
           <strong>Teruyoshi Suzuki</strong> <div class="affiliation">Hokkaido University</div> 
@@ -276,7 +278,6 @@ footer{border-top:1px solid #eee; margin-top:40px; padding:20px; color:#666}
     
     <article class="talk">
       <header>
-<hr style="margin:40px 0;border:0;border-top:1px solid #ccc">
         <h2 class="title">Design of Decentralized Exchanges under Concentrated Liquidity</h2>
         <div class="speaker">
           <strong>Kohta Takehara</strong> <div class="affiliation">Tokyo Metropolitan University (TMU)</div> 
@@ -288,7 +289,6 @@ footer{border-top:1px solid #eee; margin-top:40px; padding:20px; color:#666}
     
     <article class="talk">
       <header>
-<hr style="margin:40px 0;border:0;border-top:1px solid #ccc">
         <h2 class="title">Asset Prices and Sustainable Investing under Double Materiality</h2>
         <div class="speaker">
           <strong>Tomonori Uchiyama</strong> <div class="affiliation">Tokyo Metropolitan University (TMU)</div> 
@@ -300,7 +300,6 @@ footer{border-top:1px solid #eee; margin-top:40px; padding:20px; color:#666}
     
     <article class="talk">
       <header>
-<hr style="margin:40px 0;border:0;border-top:1px solid #ccc">
         <h2 class="title">DeepMartingale: Duality of the optimal stopping problem with expressivity</h2>
         <div class="speaker">
           <strong>Hoi Ying Wong</strong> <div class="affiliation">Chinese University of Hong Kong (CUHK)</div> 
@@ -312,7 +311,6 @@ footer{border-top:1px solid #eee; margin-top:40px; padding:20px; color:#666}
     
     <article class="talk">
       <header>
-<hr style="margin:40px 0;border:0;border-top:1px solid #ccc">
         <h2 class="title">Optimal Acquisition Contract Design under Asymmetric Information: The Role of Earnouts and Separating Menus</h2>
         <div class="speaker">
           <strong>Kyoko Yagi</strong> <div class="affiliation">Tokyo Metropolitan University (TMU)</div> 
@@ -324,7 +322,6 @@ footer{border-top:1px solid #eee; margin-top:40px; padding:20px; color:#666}
     
     <article class="talk">
       <header>
-<hr style="margin:40px 0;border:0;border-top:1px solid #ccc">
         <h2 class="title">Risk-Sensitive Reinforcement Learning with Information Costs</h2>
         <div class="speaker">
           <strong>Tingjin Yan</strong> <div class="affiliation">East China Normal University</div> 
@@ -336,7 +333,6 @@ footer{border-top:1px solid #eee; margin-top:40px; padding:20px; color:#666}
     
     <article class="talk">
       <header>
-<hr style="margin:40px 0;border:0;border-top:1px solid #ccc">
         <h2 class="title">One-Step Survival Method for Barrier Option Price and Greeks Calculation under Heston Model</h2>
         <div class="speaker">
           <strong>Kazuhiro Yasuda</strong> <div class="affiliation">Hosei University</div> 
@@ -348,7 +344,6 @@ footer{border-top:1px solid #eee; margin-top:40px; padding:20px; color:#666}
     
     <article class="talk">
       <header>
-<hr style="margin:40px 0;border:0;border-top:1px solid #ccc">
         <h2 class="title">An analytic pricing formula for timer options under constant elasticity of variance with stochastic volatility</h2>
         <div class="speaker">
           <strong>Ji-Hun Yoon</strong> <div class="affiliation">Pusan National University (PNU)</div> 
@@ -360,7 +355,6 @@ footer{border-top:1px solid #eee; margin-top:40px; padding:20px; color:#666}
     
     <article class="talk">
       <header>
-<hr style="margin:40px 0;border:0;border-top:1px solid #ccc">
         <h2 class="title">Dynamic skew-t copula modelling for multivariate asset price movement</h2>
         <div class="speaker">
           <strong>Toshinao Yoshiba</strong> <div class="affiliation">Tokyo Metropolitan University (TMU)</div> 
@@ -372,7 +366,6 @@ footer{border-top:1px solid #eee; margin-top:40px; padding:20px; color:#666}
     
     <article class="talk">
       <header>
-<hr style="margin:40px 0;border:0;border-top:1px solid #ccc">
         <h2 class="title">Randomized multi-factor approximation for stochastic volterra equations with fractional kernel</h2>
         <div class="speaker">
           <strong>Tomooki Yuasa</strong> <div class="affiliation">Tokyo Metropolitan University (TMU)</div> 
@@ -384,7 +377,6 @@ footer{border-top:1px solid #eee; margin-top:40px; padding:20px; color:#666}
     
     <article class="talk">
       <header>
-<hr style="margin:40px 0;border:0;border-top:1px solid #ccc">
         <h2 class="title">Characterization of the optimal solutions to the Rochet-Choné’s 2D model using duality</h2>
         <div class="speaker">
           <strong>Kelvin Shuangjian Zhang</strong> <div class="affiliation">Fudan University</div> 
@@ -406,6 +398,10 @@ footer{border-top:1px solid #eee; margin-top:40px; padding:20px; color:#666}
       const term = q.value.toLowerCase();
       let visible = 0;
       items.forEach(el => {
+        if (el.tagName.toLowerCase() === 'h1') {
+            el.style.display = '';
+            return;
+        }
         const txt = el.innerText.toLowerCase();
         const show = !term || txt.includes(term);
         el.style.display = show ? '' : 'none';
